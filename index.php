@@ -13,6 +13,7 @@
 
 <body>
   <header>
+    <!-- NAV BAR -->
     <nav class="navbar">
       <!-- LOGO -->
       <div class="logo"><img src="./img/Foodieland.png" alt="" width="110px"></div>
@@ -51,7 +52,7 @@
   </header>
   <div class="grid">
     <div class="recettedroite">
-     <img class="imgD" src="./img/chickenwings.png" alt="" >
+      <img class="imgD" src="./img/chickenwings.png" alt="">
     </div>
 
 
@@ -59,48 +60,96 @@
 
     <div class="recettegauche">
 
-  <img class="imgG" src="./img/Rectangle.png" alt="" >
-  <div class="HOT">
-  <img class="imgHOT" src="./img/image14.png" alt="" >
-<span class="hotrecette"> Hot Recipes</span>
-</div>
+      <img class="imgG" src="./img/Rectangle.png" alt="">
+      <div class="HOT">
+        <img class="imgHOT" src="./img/image14.png" alt="">
+        <span class="hotrecette"> Hot Recipes</span>
+      </div>
 
-  <span class="titreR"> Spicy delicious chicken wings</span>
-  <span class="texteR">Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim </span>
+      <span class="titreR"> Spicy delicious chicken wings</span>
+      <span class="texteR">Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim </span>
 
- <div class="time">
- <img class="imgTime" src="./img/Vector.png" alt="" >
- <span class="min"> 30 Minutes</span>
- </div>
- <div class="catég">
+      <div class="time">
+        <img class="imgTime" src="./img/Vector.png" alt="">
+        <span class="min"> 30 Minutes</span>
+      </div>
+      <div class="catég">
 
-   <div class="imgCat">
- <img class="" src="./img/Vector (1).png" alt="" >
- <img class="" src="./img/Vector (2).png" alt="" >
-</div>
- <span class="cat">Chicken</span>
- </div>
+        <div class="imgCat">
+          <img class="" src="./img/Vector (1).png" alt="">
+          <img class="" src="./img/Vector (2).png" alt="">
+        </div>
+        <span class="cat">Chicken</span>
+      </div>
 
-<div class="auteur">
-<img class="imgAuteur" src="./img/jhonsmith.png" alt="" >
+      <div class="auteur">
+        <img class="imgAuteur" src="./img/jhonsmith.png" alt="">
 
-<div class="auteurNom">
-<span>John Smith</span>
-<span class="timeAuteur"> 15 March 2022</span>
-</div>
-</div>
+        <div class="auteurNom">
+          <span>John Smith</span>
+          <span class="timeAuteur"> 15 March 2022</span>
+        </div>
+      </div>
 
-<div class="bouttonRecipe">
-<img class="imgBoutton" src="./img/bouttonplay.png" alt="" >
-<span class="view">View Recipes</span>
-</div>
-
-
-
-
-
+      <div class="bouttonRecipe">
+        <img class="imgBoutton" src="./img/bouttonplay.png" alt="">
+        <span class="view">View Recipes</span>
+      </div>
 
     </div>
+
+  </div>
+
+  <div class="categories">
+
+<div class="categorieTexte">
+  <span>Categories</span>
+  <div class="viewAllCat">
+    <span class="viewAllCatTexte">View All Categories</span>
+  </div>
+</div>
+<div class="breakfast">
+<img class="imgbreakfast" src="./img/criz.png" alt="">
+<span class="breakfastTexte">Breakfast</span>
+</div>
+
+</div>
+<div class="vegan">
+<img class="imgvegan" src="./img/cvegan.png" alt="">
+<span class="veganTexte">Vegan</span>
+</div>
+
+<div class="meat">
+<img class="imgmeat" src="./img/cviande.png" alt="">
+<span class="meatTexte">Meat</span>
+</div>
+
+<div class="dessert">
+<img class="imgdessert" src="./img/cdessert.png" alt="">
+<span class="dessertTexte">Dessert</span>
+</div>
+
+<div class="lunch">
+<img class="imglunch" src="./img/clunch.png" alt="">
+<span class="lunchTexte">Lunch</span>
+</div>
+
+<div class="chocolate">
+<img class="imgchocolate" src="./img/cchoco.png" alt="">
+<span class="chocolateTexte">Chocolate</span>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
 
   </div>
 
