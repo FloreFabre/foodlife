@@ -194,7 +194,7 @@ li {
 
   align-items: center;
   background-color: rgb(255, 255, 255);
-  margin-top: 100%;
+  margin-top: 200%;
   margin-bottom: 3%;
   padding-bottom: 0%;
 
@@ -864,4 +864,165 @@ color: #000000;
   
   color: #000000;
 
+}
+
+/* css des recettes */
+
+.recette{
+
+  display: grid;
+
+}
+
+
+
+.simplyrecipes{
+
+  position: absolute;
+  width: 526px;
+  height: 58px;
+  left: 580px;
+  top: 1475px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 58px;
+  /* identical to box height */
+  
+  letter-spacing: -0.04em;
+  
+  color: #000000;
+
+}
+
+.simplyTexte{
+
+  position: absolute;
+width: 600px;
+height: 56px;
+left: 520px;
+top: 1557px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+/* or 175% */
+
+text-align: center;
+
+color: rgba(0, 0, 0, 0.6);
+}
+
+.recette1{
+
+  position: absolute;
+  width: 400px;
+  height: 434px;
+  left: 80px;
+  top: 1709px;
+  
+  background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%);
+  border-radius: 30px;
+
+}
+
+.imgR1{
+
+  position: absolute;
+  width: 370px;
+  height: 264px;
+  left: 15px;
+  top: 0px;
+  border-radius: 30px;
+
+}
+
+.recette1Texte{
+
+  position: absolute;
+  width: 352px;
+  height: 64px;
+  left: 25px;
+  top: 290px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  /* or 133% */
+  
+  letter-spacing: -0.04em;
+  
+  color: #000000;
+
+
+}
+
+.imgTimeR1{
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  left: 23px;
+  top: 375px;
+
+}
+
+.minR1{
+  position: absolute;
+  width: 73px;
+  height: 17px;
+  left: 50px;
+  top: 375px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  
+  letter-spacing: -0.02em;
+
+}
+
+.imgCatR1{
+  display: flex;
+  position: absolute;
+width: 8.25px;
+height: 19.5px;
+left: 150px;
+top: 374px;
+
+}
+
+.catR1{
+
+  position: absolute;
+  width: 53px;
+  height: 17px;
+  left: 180px;
+  top: 375px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  
+  letter-spacing: -0.02em;
+}
+
+.likeR1{
+
+  position: absolute;
+width: 48px;
+height: 48px;
+left: 316px;
+top: 20px;
 }
