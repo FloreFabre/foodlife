@@ -1,19 +1,12 @@
-
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* .body{
 
-  margin-right: 0%;
-  margin-left: 0%;
-  width: 1440px;
-  background: #FFFFFF;
 
-} */
+
 a {
   text-decoration: none;
 }
@@ -184,6 +177,7 @@ li {
 
   color: rgba(0, 0, 0, 0.534);
 }
+
 /* css footer */
 .footer {
   width: 100%;
@@ -194,7 +188,7 @@ li {
 
   align-items: center;
   background-color: rgb(255, 255, 255);
-  margin-top: 200%;
+  margin-top: 300%;
   margin-bottom: 3%;
   padding-bottom: 0%;
 
@@ -274,134 +268,137 @@ li {
 
 /* css recette en avant */
 
-.grid{
+.grid {
 
-display: grid;
+  display: grid;
 
 }
 
-.recettegauche{
+.recettegauche {
 
   position: absolute;
-width: 620px;
-height: 640px;
-left: 155px;
-top: 150px;
- 
+  width: 620px;
+  height: 640px;
+  left: 155px;
+  top: 150px;
+
 
 }
 
-.imgD{
-position: absolute;
-border-radius: 0px 20px 20px 0px;
-  
-}
-.imgG{
-position: absolute;
+.imgD {
+  position: absolute;
+  border-radius: 0px 20px 20px 0px;
 
 }
 
-.recettedroite{
+.imgG {
+  position: absolute;
 
- 
+}
 
- position: absolute;
+.recettedroite {
+
+
+
+  position: absolute;
   width: 500px;
   height: 640px;
   left: 775px;
   top: 150px;
 }
 
-.titreR{
+.titreR {
 
   position: absolute;
   width: 520px;
   height: 154px;
   left: 80px;
   top: 150px;
-  
+
   font-family: 'Inter';
   font-style: normal;
   font-weight: 600;
   font-size: 64px;
   line-height: 77px;
   letter-spacing: -0.04em;
-  
+
 }
-.HOT{
+
+.HOT {
   position: absolute;
-width: 156px;
-height: 45px;
-left: 80px;
-top: 60px;
+  width: 156px;
+  height: 45px;
+  left: 80px;
+  top: 60px;
 
-background: #FFFFFF;
-border-radius: 30px;
--webkit-box-shadow: 0px 10px 13px -7px #000000, 1px 34px 50px -30px #000000; 
-box-shadow: 0px 10px 13px -7px #000000, 1px 34px 50px -30px #000000;
+  background: #FFFFFF;
+  border-radius: 30px;
+  -webkit-box-shadow: 0px 10px 13px -7px #000000, 1px 34px 50px -30px #000000;
+  box-shadow: 0px 10px 13px -7px #000000, 1px 34px 50px -30px #000000;
 }
 
-.hotrecette{
+.hotrecette {
   position: absolute;
   width: 79px;
   height: 17px;
   left: 55px;
   top: 15px;
-  
+
   font-family: 'Inter';
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
   line-height: 17px;
   /* identical to box height */
-  
+
   letter-spacing: -0.02em;
-  
+
   color: #000000;
 
 
 }
 
-.imgHOT{
+.imgHOT {
 
   position: absolute;
-width: 24px;
-height: 24px;
-left: 20px;
-top: 10px;
+  width: 24px;
+  height: 24px;
+  left: 20px;
+  top: 10px;
 }
 
-.texteR{
+.texteR {
 
   position: absolute;
-width: 470px;
-height: 56px;
-left: 80px;
-top: 350px;
+  width: 470px;
+  height: 56px;
+  left: 80px;
+  top: 350px;
 
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 28px;
-/* or 175% */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  /* or 175% */
 
 
-color: rgba(0, 0, 0, 0.6);
+  color: rgba(0, 0, 0, 0.6);
 }
-.time{
+
+.time {
   position: absolute;
   width: 139px;
   height: 40px;
   left: 80px;
   top: 440px;
-  
+
   background: rgba(0, 0, 0, 0.05);
   border-radius: 30px;
 
 }
 
-.imgTime{
+.imgTime {
 
 
   position: absolute;
@@ -409,144 +406,148 @@ color: rgba(0, 0, 0, 0.6);
   height: 18px;
   left: 20px;
   top: 10px;
-  
+
 }
 
-.min{
+.min {
   position: absolute;
   width: 73px;
   height: 17px;
   left: 50px;
   top: 10px;
-  
+
   font-family: 'Inter';
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 17px;
   /* identical to box height */
-  
+
   letter-spacing: -0.02em;
 
 
 }
-.catég{
+
+.catég {
 
   position: absolute;
   width: 139px;
   height: 40px;
   left: 240px;
   top: 440px;
-  
+
   background: rgba(0, 0, 0, 0.05);
   border-radius: 30px;
 
 
 }
-.imgCat{
+
+.imgCat {
   display: flex;
   position: absolute;
-width: 8.25px;
-height: 19.5px;
-left: 20px;
-top: 10px;
+  width: 8.25px;
+  height: 19.5px;
+  left: 20px;
+  top: 10px;
 
 }
 
-.cat{
+.cat {
 
   position: absolute;
-width: 53px;
-height: 17px;
-left: 50px;
-top: 10px;
+  width: 53px;
+  height: 17px;
+  left: 50px;
+  top: 10px;
 
-font-family: 'Inter';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 17px;
-/* identical to box height */
-
-letter-spacing: -0.02em;
-}
-
-.auteur{
-  display: flex;
-  position: absolute;
-  width: 50px;
-  height: 50px;
-  left: 80px;
-  top: 550px;
-  
-}
-
-.auteurNom{
-
-  position: absolute;
-width: 90px;
-height: 19px;
-left: 75px;
-top: 5px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 19px;
-letter-spacing: -0.02em;
-}
-.timeAuteur{
-
-  
   font-family: 'Inter';
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 17px;
   /* identical to box height */
-  
+
   letter-spacing: -0.02em;
-  
-  
 }
 
-.bouttonRecipe{
+.auteur {
+  display: flex;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 80px;
+  top: 550px;
+
+}
+
+.auteurNom {
+
+  position: absolute;
+  width: 90px;
+  height: 19px;
+  left: 75px;
+  top: 5px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.02em;
+}
+
+.timeAuteur {
+
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  letter-spacing: -0.02em;
+
+
+}
+
+.bouttonRecipe {
   position: absolute;
   width: 200px;
   height: 60px;
   left: 370px;
   top: 540px;
-  
+
   background: #000000;
   border-radius: 16px;
 
 }
-.imgBoutton{
+
+.imgBoutton {
 
   position: absolute;
-width: 19.5px;
-height: 19.5px;
-left: 140px;
-top: 20px;
+  width: 19.5px;
+  height: 19.5px;
+  left: 140px;
+  top: 20px;
 
 }
 
-.view{
+.view {
 
   position: absolute;
   width: 88px;
   height: 17px;
   left: 40px;
   top: 20px;
-  
+
   font-family: 'Inter';
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
   line-height: 17px;
   /* identical to box height */
-  
+
   letter-spacing: -0.02em;
 
   color: #FFFFFF;
@@ -556,159 +557,161 @@ top: 20px;
 
 /* css catégories */
 
-.categories{
+.categories {
 
   display: grid;
+
 }
 
-.categorieTexte{
+.categorieTexte {
 
   position: absolute;
-width: 238px;
-height: 58px;
-left: 150px;
-top: 952px;
+  width: 238px;
+  height: 58px;
+  left: 150px;
+  top: 952px;
 
-font-family: 'Inter';
-font-style: normal;
-font-weight: 600;
-font-size: 48px;
-line-height: 58px;
-/* identical to box height */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 58px;
+  /* identical to box height */
 
-letter-spacing: -0.04em;
+  letter-spacing: -0.04em;
 
-color: #000000;
+  color: #000000;
 }
 
-.viewAllCat{
+.viewAllCat {
 
   position: absolute;
-width: 200px;
-height: 60px;
-left: 1065px;
-top: 0px;
+  width: 200px;
+  height: 60px;
+  left: 1065px;
+  top: 0px;
 
-background: #E7FAFE;
-border-radius: 16px;
+  background: #E7FAFE;
+  border-radius: 16px;
 }
-.viewAllCatTexte{
+
+.viewAllCatTexte {
   position: absolute;
-width: 146px;
-height: 19px;
-left: 40px;
-top: 20px;
+  width: 146px;
+  height: 19px;
+  left: 40px;
+  top: 20px;
 
-font-family: 'Inter';
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-line-height: 19px;
-letter-spacing: -0.02em;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.02em;
 
-color: #000000;
+  color: #000000;
 }
 
-.breakfast{
+.breakfast {
   position: absolute;
   width: 180px;
   height: 152px;
   left: 150px;
   top: 1140px;
-  
+
   background: linear-gradient(180deg, rgba(112, 130, 70, 0) 0%, rgba(112, 130, 70, 0.1) 100%);
   border-radius: 30px;
 
 }
 
-.imgbreakfast{
+.imgbreakfast {
 
 
   position: absolute;
-width: 100px;
-height: 100px;
-left: 40px;
-top: -40px;
-filter: drop-shadow(12px 31px 13px rgba(0, 0, 0, 0.12));
+  width: 100px;
+  height: 100px;
+  left: 40px;
+  top: -40px;
+  filter: drop-shadow(12px 31px 13px rgba(0, 0, 0, 0.12));
 
 }
 
-.breakfastTexte{
+.breakfastTexte {
 
 
   position: absolute;
-width: 81px;
-height: 22px;
-left: 50px;
-top: 100px;
+  width: 81px;
+  height: 22px;
+  left: 50px;
+  top: 100px;
 
-font-family: 'Inter';
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 22px;
-/* identical to box height */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
 
-text-align: center;
-letter-spacing: -0.02em;
+  text-align: center;
+  letter-spacing: -0.02em;
 
-color: #000000;
+  color: #000000;
 }
 
-.vegan{
+.vegan {
   position: absolute;
   width: 180px;
   height: 152px;
   left: 370px;
   top: 1140px;
-  
+
   background: linear-gradient(180deg, rgba(108, 198, 63, 0) 0%, rgba(108, 198, 63, 0.1) 100%);
   border-radius: 30px;
 }
 
-.imgvegan{
+.imgvegan {
   position: absolute;
-width: 100px;
-height: 100px;
-left: 40px;
-top: -40px;
-filter: drop-shadow(15px 27px 10px rgba(39, 138, 13, 0.22));
+  width: 100px;
+  height: 100px;
+  left: 40px;
+  top: -40px;
+  filter: drop-shadow(15px 27px 10px rgba(39, 138, 13, 0.22));
 
 }
 
-.veganTexte{
+.veganTexte {
 
   position: absolute;
-width: 81px;
-height: 22px;
-left: 50px;
-top: 100px;
+  width: 81px;
+  height: 22px;
+  left: 50px;
+  top: 100px;
 
-font-family: 'Inter';
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 22px;
-/* identical to box height */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
 
-text-align: center;
-letter-spacing: -0.02em;
+  text-align: center;
+  letter-spacing: -0.02em;
 
-color: #000000;
+  color: #000000;
 }
 
-.meat{
+.meat {
   position: absolute;
   width: 180px;
   height: 152px;
   left: 590px;
   top: 1140px;
-  
+
   background: linear-gradient(180deg, rgba(204, 38, 27, 0) 0%, rgba(204, 38, 27, 0.1) 100%);
   border-radius: 30px;
 }
 
-.imgmeat{
+.imgmeat {
 
   position: absolute;
   width: 100px;
@@ -718,40 +721,40 @@ color: #000000;
   filter: drop-shadow(25px 23px 10px rgba(212, 128, 128, 0.22));
 }
 
-.meatTexte{
+.meatTexte {
 
   position: absolute;
   width: 81px;
   height: 22px;
   left: 50px;
   top: 100px;
-  
+
   font-family: 'Inter';
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
   line-height: 22px;
   /* identical to box height */
-  
+
   text-align: center;
   letter-spacing: -0.02em;
-  
+
   color: #000000;
 }
 
-.dessert{
+.dessert {
 
   position: absolute;
   width: 180px;
   height: 152px;
   left: 810px;
   top: 1140px;
-  
+
   background: linear-gradient(180deg, rgba(240, 158, 0, 0) 0%, rgba(240, 158, 0, 0.1) 100%);
   border-radius: 30px;
 }
 
-.imgdessert{
+.imgdessert {
 
   position: absolute;
   width: 100px;
@@ -761,39 +764,39 @@ color: #000000;
   filter: drop-shadow(19px 24px 10px rgba(210, 175, 115, 0.22));
 }
 
-.dessertTexte{
+.dessertTexte {
 
   position: absolute;
   width: 81px;
   height: 22px;
   left: 50px;
   top: 100px;
-  
+
   font-family: 'Inter';
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
   line-height: 22px;
   /* identical to box height */
-  
+
   text-align: center;
   letter-spacing: -0.02em;
-  
+
   color: #000000;
 }
 
-.lunch{
+.lunch {
   position: absolute;
   width: 180px;
   height: 152px;
   left: 1030px;
   top: 1140px;
-  
+
   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.05) 100%);
   border-radius: 30px;
 }
 
-.imglunch{
+.imglunch {
   position: absolute;
   width: 100px;
   height: 100px;
@@ -802,40 +805,40 @@ color: #000000;
   filter: drop-shadow(24px 31px 10px rgba(226, 217, 132, 0.22));
 }
 
-.lunchTexte{
+.lunchTexte {
 
   position: absolute;
   width: 81px;
   height: 22px;
   left: 50px;
   top: 100px;
-  
+
   font-family: 'Inter';
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
   line-height: 22px;
   /* identical to box height */
-  
+
   text-align: center;
   letter-spacing: -0.02em;
-  
+
   color: #000000;
 
 }
 
-.chocolate{
+.chocolate {
   position: absolute;
   width: 180px;
   height: 152px;
   left: 1250px;
   top: 1140px;
-  
+
   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.05) 100%);
   border-radius: 30px;
 }
 
-.imgchocolate{
+.imgchocolate {
   position: absolute;
   width: 100px;
   height: 100px;
@@ -844,185 +847,181 @@ color: #000000;
   filter: drop-shadow(20px 29px 10px rgba(171, 78, 78, 0.22));
 }
 
-.chocolateTexte{
+.chocolateTexte {
 
   position: absolute;
   width: 81px;
   height: 22px;
   left: 50px;
   top: 100px;
-  
+
   font-family: 'Inter';
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
   line-height: 22px;
   /* identical to box height */
-  
+
   text-align: center;
   letter-spacing: -0.02em;
-  
+
   color: #000000;
 
 }
 
 /* css des recettes */
 
-.recette{
 
-  display: grid;
-
-}
-
-
-
-.simplyrecipes{
+.simplyrecipes {
 
   position: absolute;
   width: 526px;
   height: 58px;
   left: 580px;
   top: 1475px;
-  
+
   font-family: 'Inter';
   font-style: normal;
   font-weight: 600;
   font-size: 48px;
   line-height: 58px;
   /* identical to box height */
-  
+
   letter-spacing: -0.04em;
-  
+
   color: #000000;
 
 }
 
-.simplyTexte{
+.simplyTexte {
 
   position: absolute;
-width: 600px;
-height: 56px;
-left: 520px;
-top: 1557px;
+  width: 600px;
+  height: 56px;
+  left: 520px;
+  top: 1557px;
 
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 28px;
-/* or 175% */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  /* or 175% */
 
-text-align: center;
+  text-align: center;
 
-color: rgba(0, 0, 0, 0.6);
+  color: rgba(0, 0, 0, 0.6);
 }
 
-.recette1{
+
+/* Section Chef */
+
+.chef {
+
+  display: grid;
+}
+
+
+.titrechef {
 
   position: absolute;
-  width: 400px;
-  height: 434px;
-  left: 80px;
-  top: 1709px;
-  
+  width: 430px;
+  height: 116px;
+  left: 160px;
+  top: 3403px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 58px;
+  letter-spacing: -0.04em;
+
+  color: #000000;
+}
+
+.textechef {
+
+  position: absolute;
+  width: 420px;
+  height: 84px;
+  left: 160px;
+  top: 3543px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  /* or 175% */
+
+
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.chefdroite {
+
+  position: absolute;
+  width: 651px;
+  height: 500px;
+  left: 800px;
+  top: 3331px;
+
   background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%);
   border-radius: 30px;
 
 }
 
-.imgR1{
+.imgchef{
 
   position: absolute;
-  width: 370px;
-  height: 264px;
-  left: 15px;
+width: 660px;
+height: 597px;
+left: -53px;
+top: -97px;
+}
+
+
+.imgchefT{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: -25px;
+  top: 320px;
+  
+
+}
+
+.imgchefV{
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  left: 60px;
+  top: -10px;
+
+  transform: rotate(-15deg);
+
+}
+
+.imgchefO{
+
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 430px;
   top: 0px;
-  border-radius: 30px;
-
+  
+  
+  transform: rotate(15deg);
 }
 
-.recette1Texte{
+.imgchefL{
 
   position: absolute;
-  width: 352px;
-  height: 64px;
-  left: 25px;
-  top: 290px;
-  
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 32px;
-  /* or 133% */
-  
-  letter-spacing: -0.04em;
-  
-  color: #000000;
-
-
+  width: 80px;
+  height: 80px;
+  left: 540px;
+  top: 65px;
 }
 
-.imgTimeR1{
-  position: absolute;
-  width: 18px;
-  height: 18px;
-  left: 23px;
-  top: 375px;
 
-}
-
-.minR1{
-  position: absolute;
-  width: 73px;
-  height: 17px;
-  left: 50px;
-  top: 375px;
-  
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 17px;
-  /* identical to box height */
-  
-  letter-spacing: -0.02em;
-
-}
-
-.imgCatR1{
-  display: flex;
-  position: absolute;
-width: 8.25px;
-height: 19.5px;
-left: 150px;
-top: 374px;
-
-}
-
-.catR1{
-
-  position: absolute;
-  width: 53px;
-  height: 17px;
-  left: 180px;
-  top: 375px;
-  
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 17px;
-  /* identical to box height */
-  
-  letter-spacing: -0.02em;
-}
-
-.likeR1{
-
-  position: absolute;
-width: 48px;
-height: 48px;
-left: 316px;
-top: 20px;
-}
