@@ -1,0 +1,309 @@
+.recette {
+    display: grid;
+}
+
+/* Recette1 */
+.recette1 {
+
+    position: absolute;
+    width: 400px;
+    height: 434px;
+    left: 160px;
+    top: 1709px;
+
+    background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%);
+    border-radius: 30px;
+
+}
+
+.imgR {
+
+    position: absolute;
+    width: 370px;
+    height: 264px;
+    left: 15px;
+    top: 0px;
+    border-radius: 30px;
+
+}
+
+.recetteTexte {
+
+    position: absolute;
+    width: 352px;
+    height: 64px;
+    left: 25px;
+    top: 290px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    /* or 133% */
+
+    letter-spacing: -0.04em;
+
+    color: #000000;
+
+
+}
+
+.imgTimeR {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 23px;
+    top: 375px;
+
+}
+
+.minR {
+    position: absolute;
+    width: 73px;
+    height: 17px;
+    left: 50px;
+    top: 375px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    letter-spacing: -0.02em;
+
+}
+
+.imgCatR {
+    display: flex;
+    position: absolute;
+    width: 8.25px;
+    height: 19.5px;
+    left: 150px;
+    top: 374px;
+
+}
+
+.catR {
+
+    position: absolute;
+    width: 53px;
+    height: 17px;
+    left: 180px;
+    top: 375px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    letter-spacing: -0.02em;
+}
+
+.likeR {
+
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 316px;
+    top: 20px;
+}
+
+/* Recette 2 */
+
+.recette2 {
+
+    position: absolute;
+    width: 400px;
+    height: 434px;
+    left: 610px;
+    top: 1709px;
+
+    background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%);
+    border-radius: 30px;
+
+}
+
+
+/* Recette 3 */
+
+.recette3 {
+
+    position: absolute;
+    width: 400px;
+    height: 434px;
+    left: 1060px;
+    top: 1709px;
+
+    background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%);
+    border-radius: 30px;
+
+}
+
+
+/* Recette 4 */
+
+.recette4 {
+
+    position: absolute;
+    width: 400px;
+    height: 434px;
+    left: 160px;
+    top: 2209px;
+
+    background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%);
+    border-radius: 30px;
+
+}
+
+
+
+/* Recette 5 */
+
+.recette5 {
+
+    position: absolute;
+    width: 400px;
+    height: 434px;
+    left: 610px;
+    top: 2209px;
+
+    background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%);
+    border-radius: 30px;
+
+}
+
+
+
+/* PUB */
+
+.pub {
+
+    position: absolute;
+    width: 400px;
+    height: 454px;
+    left: 1059px;
+    top: 2190px;
+
+    background: linear-gradient(180deg, #357355 0%, #1D483B 100%);
+}
+
+.textpub {
+    position: absolute;
+    width: 172px;
+    height: 60px;
+    left: 110px;
+    top: 40px;
+
+    font-family: 'Lobster';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+
+}
+
+
+.imgpub {
+
+
+    position: absolute;
+    width: 354px;
+    height: 336px;
+    left: 20px;
+    top: 100px;
+}
+
+.lienpub{
+
+    position: absolute;
+    width: 137px;
+    height: 17px;
+    left: 140px;
+    top: 400px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    
+    letter-spacing: -0.02em;
+    
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.starpub{
+
+    
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    
+    background: radial-gradient(30.35% 30.35% at 50% 50%, #3A795B 0%, rgba(58, 121, 91, 0) 100%);
+
+}
+
+/* Recette 6 */
+
+.recette6 {
+
+    position: absolute;
+    width: 400px;
+    height: 434px;
+    left: 160px;
+    top: 2709px;
+
+    background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%);
+    border-radius: 30px;
+
+}
+
+
+
+/* Recette 7 */
+
+.recette7 {
+
+    position: absolute;
+    width: 400px;
+    height: 434px;
+    left: 610px;
+    top: 2709px;
+
+    background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%);
+    border-radius: 30px;
+
+}
+
+
+/* Recette 8 */
+
+.recette8 {
+
+    position: absolute;
+    width: 400px;
+    height: 434px;
+    left: 1060px;
+    top: 2709px;
+
+    background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%);
+    border-radius: 30px;
+
+}
+
+
+
+
+
+
