@@ -16,7 +16,7 @@
 
 }
 
-.imgR1 {
+.imgR {
 
     position: absolute;
     width: 370px;
@@ -27,7 +27,7 @@
 
 }
 
-.recette1Texte {
+.recetteTexte {
 
     position: absolute;
     width: 352px;
@@ -49,7 +49,7 @@
 
 }
 
-.imgTimeR1 {
+.imgTimeR {
     position: absolute;
     width: 18px;
     height: 18px;
@@ -58,7 +58,7 @@
 
 }
 
-.minR1 {
+.minR {
     position: absolute;
     width: 73px;
     height: 17px;
@@ -76,7 +76,7 @@
 
 }
 
-.imgCatR1 {
+.imgCatR {
     display: flex;
     position: absolute;
     width: 8.25px;
@@ -86,7 +86,7 @@
 
 }
 
-.catR1 {
+.catR {
 
     position: absolute;
     width: 53px;
@@ -104,7 +104,7 @@
     letter-spacing: -0.02em;
 }
 
-.likeR1 {
+.likeR {
 
     position: absolute;
     width: 48px;
@@ -128,102 +128,6 @@
 
 }
 
-.imgR2 {
-
-    position: absolute;
-    width: 370px;
-    height: 264px;
-    left: 15px;
-    top: 0px;
-    border-radius: 30px;
-
-}
-
-.recette2Texte {
-
-    position: absolute;
-    width: 352px;
-    height: 64px;
-    left: 25px;
-    top: 290px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 32px;
-    /* or 133% */
-
-    letter-spacing: -0.04em;
-
-    color: #000000;
-
-
-}
-
-.imgTimeR2 {
-    position: absolute;
-    width: 18px;
-    height: 18px;
-    left: 23px;
-    top: 375px;
-
-}
-
-.minR2 {
-    position: absolute;
-    width: 73px;
-    height: 17px;
-    left: 50px;
-    top: 375px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 17px;
-    /* identical to box height */
-
-    letter-spacing: -0.02em;
-
-}
-
-.imgCatR2 {
-    display: flex;
-    position: absolute;
-    width: 8.25px;
-    height: 19.5px;
-    left: 150px;
-    top: 374px;
-
-}
-
-.catR2 {
-
-    position: absolute;
-    width: 53px;
-    height: 17px;
-    left: 180px;
-    top: 375px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 17px;
-    /* identical to box height */
-
-    letter-spacing: -0.02em;
-}
-
-.likeR2 {
-
-    position: absolute;
-    width: 48px;
-    height: 48px;
-    left: 316px;
-    top: 20px;
-}
 
 /* Recette 3 */
 
@@ -240,102 +144,6 @@
 
 }
 
-.imgR3 {
-
-    position: absolute;
-    width: 370px;
-    height: 264px;
-    left: 15px;
-    top: 0px;
-    border-radius: 30px;
-
-}
-
-.recette3Texte {
-
-    position: absolute;
-    width: 352px;
-    height: 64px;
-    left: 25px;
-    top: 290px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 32px;
-    /* or 133% */
-
-    letter-spacing: -0.04em;
-
-    color: #000000;
-
-
-}
-
-.imgTimeR3 {
-    position: absolute;
-    width: 18px;
-    height: 18px;
-    left: 23px;
-    top: 375px;
-
-}
-
-.minR3 {
-    position: absolute;
-    width: 73px;
-    height: 17px;
-    left: 50px;
-    top: 375px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 17px;
-    /* identical to box height */
-
-    letter-spacing: -0.02em;
-
-}
-
-.imgCatR3 {
-    display: flex;
-    position: absolute;
-    width: 8.25px;
-    height: 19.5px;
-    left: 150px;
-    top: 374px;
-
-}
-
-.catR3 {
-
-    position: absolute;
-    width: 53px;
-    height: 17px;
-    left: 180px;
-    top: 375px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 17px;
-    /* identical to box height */
-
-    letter-spacing: -0.02em;
-}
-
-.likeR3 {
-
-    position: absolute;
-    width: 48px;
-    height: 48px;
-    left: 316px;
-    top: 20px;
-}
 
 /* Recette 4 */
 
@@ -352,102 +160,7 @@
 
 }
 
-.imgR4 {
 
-    position: absolute;
-    width: 370px;
-    height: 264px;
-    left: 15px;
-    top: 0px;
-    border-radius: 30px;
-
-}
-
-.recette4Texte {
-
-    position: absolute;
-    width: 352px;
-    height: 64px;
-    left: 25px;
-    top: 290px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 32px;
-    /* or 133% */
-
-    letter-spacing: -0.04em;
-
-    color: #000000;
-
-
-}
-
-.imgTimeR4 {
-    position: absolute;
-    width: 18px;
-    height: 18px;
-    left: 23px;
-    top: 375px;
-
-}
-
-.minR4 {
-    position: absolute;
-    width: 73px;
-    height: 17px;
-    left: 50px;
-    top: 375px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 17px;
-    /* identical to box height */
-
-    letter-spacing: -0.02em;
-
-}
-
-.imgCatR4 {
-    display: flex;
-    position: absolute;
-    width: 8.25px;
-    height: 19.5px;
-    left: 150px;
-    top: 374px;
-
-}
-
-.catR4 {
-
-    position: absolute;
-    width: 53px;
-    height: 17px;
-    left: 180px;
-    top: 375px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 17px;
-    /* identical to box height */
-
-    letter-spacing: -0.02em;
-}
-
-.likeR4 {
-
-    position: absolute;
-    width: 48px;
-    height: 48px;
-    left: 316px;
-    top: 20px;
-}
 
 /* Recette 5 */
 
@@ -464,102 +177,7 @@
 
 }
 
-.imgR5 {
 
-    position: absolute;
-    width: 370px;
-    height: 264px;
-    left: 15px;
-    top: 0px;
-    border-radius: 30px;
-
-}
-
-.recette5Texte {
-
-    position: absolute;
-    width: 352px;
-    height: 64px;
-    left: 25px;
-    top: 290px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 32px;
-    /* or 133% */
-
-    letter-spacing: -0.04em;
-
-    color: #000000;
-
-
-}
-
-.imgTimeR5 {
-    position: absolute;
-    width: 18px;
-    height: 18px;
-    left: 23px;
-    top: 375px;
-
-}
-
-.minR5 {
-    position: absolute;
-    width: 73px;
-    height: 17px;
-    left: 50px;
-    top: 375px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 17px;
-    /* identical to box height */
-
-    letter-spacing: -0.02em;
-
-}
-
-.imgCatR5 {
-    display: flex;
-    position: absolute;
-    width: 8.25px;
-    height: 19.5px;
-    left: 150px;
-    top: 374px;
-
-}
-
-.catR5 {
-
-    position: absolute;
-    width: 53px;
-    height: 17px;
-    left: 180px;
-    top: 375px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 17px;
-    /* identical to box height */
-
-    letter-spacing: -0.02em;
-}
-
-.likeR5 {
-
-    position: absolute;
-    width: 48px;
-    height: 48px;
-    left: 316px;
-    top: 20px;
-}
 
 /* PUB */
 
@@ -651,102 +269,7 @@
 
 }
 
-.imgR6 {
 
-    position: absolute;
-    width: 370px;
-    height: 264px;
-    left: 15px;
-    top: 0px;
-    border-radius: 30px;
-
-}
-
-.recette6Texte {
-
-    position: absolute;
-    width: 352px;
-    height: 64px;
-    left: 25px;
-    top: 290px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 32px;
-    /* or 133% */
-
-    letter-spacing: -0.04em;
-
-    color: #000000;
-
-
-}
-
-.imgTimeR6 {
-    position: absolute;
-    width: 18px;
-    height: 18px;
-    left: 23px;
-    top: 375px;
-
-}
-
-.minR6 {
-    position: absolute;
-    width: 73px;
-    height: 17px;
-    left: 50px;
-    top: 375px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 17px;
-    /* identical to box height */
-
-    letter-spacing: -0.02em;
-
-}
-
-.imgCatR6 {
-    display: flex;
-    position: absolute;
-    width: 8.25px;
-    height: 19.5px;
-    left: 150px;
-    top: 374px;
-
-}
-
-.catR6 {
-
-    position: absolute;
-    width: 53px;
-    height: 17px;
-    left: 180px;
-    top: 375px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 17px;
-    /* identical to box height */
-
-    letter-spacing: -0.02em;
-}
-
-.likeR6 {
-
-    position: absolute;
-    width: 48px;
-    height: 48px;
-    left: 316px;
-    top: 20px;
-}
 
 /* Recette 7 */
 
@@ -763,102 +286,6 @@
 
 }
 
-.imgR7 {
-
-    position: absolute;
-    width: 370px;
-    height: 264px;
-    left: 15px;
-    top: 0px;
-    border-radius: 30px;
-
-}
-
-.recette7Texte {
-
-    position: absolute;
-    width: 352px;
-    height: 64px;
-    left: 25px;
-    top: 290px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 32px;
-    /* or 133% */
-
-    letter-spacing: -0.04em;
-
-    color: #000000;
-
-
-}
-
-.imgTimeR7 {
-    position: absolute;
-    width: 18px;
-    height: 18px;
-    left: 23px;
-    top: 375px;
-
-}
-
-.minR7 {
-    position: absolute;
-    width: 73px;
-    height: 17px;
-    left: 50px;
-    top: 375px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 17px;
-    /* identical to box height */
-
-    letter-spacing: -0.02em;
-
-}
-
-.imgCatR7 {
-    display: flex;
-    position: absolute;
-    width: 8.25px;
-    height: 19.5px;
-    left: 150px;
-    top: 374px;
-
-}
-
-.catR7 {
-
-    position: absolute;
-    width: 53px;
-    height: 17px;
-    left: 180px;
-    top: 375px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 17px;
-    /* identical to box height */
-
-    letter-spacing: -0.02em;
-}
-
-.likeR7 {
-
-    position: absolute;
-    width: 48px;
-    height: 48px;
-    left: 316px;
-    top: 20px;
-}
 
 /* Recette 8 */
 
@@ -875,101 +302,8 @@
 
 }
 
-.imgR8 {
-
-    position: absolute;
-    width: 370px;
-    height: 264px;
-    left: 15px;
-    top: 0px;
-    border-radius: 30px;
-
-}
-
-.recette8Texte {
-
-    position: absolute;
-    width: 352px;
-    height: 64px;
-    left: 25px;
-    top: 290px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 32px;
-    /* or 133% */
-
-    letter-spacing: -0.04em;
-
-    color: #000000;
 
 
-}
 
-.imgTimeR8 {
-    position: absolute;
-    width: 18px;
-    height: 18px;
-    left: 23px;
-    top: 375px;
-
-}
-
-.minR8 {
-    position: absolute;
-    width: 73px;
-    height: 17px;
-    left: 50px;
-    top: 375px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 17px;
-    /* identical to box height */
-
-    letter-spacing: -0.02em;
-
-}
-
-.imgCatR8 {
-    display: flex;
-    position: absolute;
-    width: 8.25px;
-    height: 19.5px;
-    left: 150px;
-    top: 374px;
-
-}
-
-.catR8 {
-
-    position: absolute;
-    width: 53px;
-    height: 17px;
-    left: 180px;
-    top: 375px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 17px;
-    /* identical to box height */
-
-    letter-spacing: -0.02em;
-}
-
-.likeR8 {
-
-    position: absolute;
-    width: 48px;
-    height: 48px;
-    left: 316px;
-    top: 20px;
-}
 
 
