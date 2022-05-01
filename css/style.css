@@ -1,9 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap%22");
+
 * {
-  
+  font-family: "Inter", sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
+
 }
 
 
@@ -928,7 +930,7 @@ li {
 .titrechef {
 
   position: absolute;
-  width: 430px;
+  width: 538px;
   height: 116px;
   left: 160px;
   top: 3403px;
@@ -946,7 +948,7 @@ li {
 .textechef {
 
   position: absolute;
-  width: 420px;
+  width: 493px;
   height: 84px;
   left: 160px;
   top: 3543px;
@@ -1109,9 +1111,9 @@ input {
 
 
   position: absolute;
-  width: 521px;
+  width: 580px;
   height: 56px;
-  left: 421px;
+  left: 403px;
   top: 157px;
   font-family: 'Inter';
   font-style: normal;

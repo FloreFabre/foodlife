@@ -99,7 +99,7 @@
 .preptime {
 
     position: absolute;
-    width: 73px;
+    width: 92px;
     height: 15px;
     left: 373px;
     top: 320px;
@@ -159,7 +159,7 @@
 .cooktime {
 
     position: absolute;
-    width: 78px;
+    width: 92px;
     height: 15px;
     left: 550px;
     top: 320px;
@@ -304,7 +304,7 @@
 .totalfat {
 
     position: absolute;
-    width: 66px;
+    width: 80px;
     height: 22px;
     left: 51px;
     top: 147px;
@@ -452,9 +452,9 @@
 
 .texteNutri {
     position: absolute;
-    width: 303px;
+    width: 329px;
     height: 56px;
-    left: 46px;
+    left: 37px;
     top: 513px;
     font-family: 'Inter';
     font-style: normal;
@@ -518,7 +518,7 @@
 .texteBotTop {
 
     position: absolute;
-    width: 1129px;
+    width: 1262px;
     height: 84px;
     left: 80px;
     top: 1109px;
@@ -1156,7 +1156,7 @@
 .textestep1 {
 
     position: absolute;
-    width: 669px;
+    width: 784px;
     height: 104px;
     left: 128px;
     top: 2408px;
@@ -1188,7 +1188,7 @@
 .textestep2 {
 
     position: absolute;
-    width: 667px;
+    width: 784px;
     height: 104px;
     left: 128px;
     top: 3008px;
@@ -1254,7 +1254,7 @@
 
 
     position: absolute;
-    width: 667px;
+    width: 784px;
     height: 104px;
     left: 128px;
     top: 3261px;
@@ -1319,7 +1319,7 @@
 .textestep4 {
 
     position: absolute;
-    width: 667px;
+    width: 784px;
     height: 104px;
     left: 128px;
     top: 3514px;
