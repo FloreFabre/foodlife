@@ -1,14 +1,38 @@
 /* top page */
-.body {
 
-    position: relative;
-    width: 1440px;
+/* html {
 
+    background-color: #000000;
 }
+
+body {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1440px;
+    background: white;
+} */
 
 .RecetteTop {
 
+   
     display: grid;
+    POSITION: absolute;
+    top: 10px;
+    LEFT: 90px;
+
+}
+
+.RecetteMid{
+    position: absolute;
+    left: 93px;
+    top: 37px;
+}
+
+.RecetteBot{
+
+    position: absolute;
+    left: 89px;
+    top: 49px;
 }
 
 .RecetteTopTitre {
@@ -99,7 +123,7 @@
 .preptime {
 
     position: absolute;
-    width: 73px;
+    width: 92px;
     height: 15px;
     left: 373px;
     top: 320px;
@@ -159,7 +183,7 @@
 .cooktime {
 
     position: absolute;
-    width: 78px;
+    width: 92px;
     height: 15px;
     left: 550px;
     top: 320px;
@@ -304,7 +328,7 @@
 .totalfat {
 
     position: absolute;
-    width: 66px;
+    width: 80px;
     height: 22px;
     left: 51px;
     top: 147px;
@@ -452,9 +476,9 @@
 
 .texteNutri {
     position: absolute;
-    width: 303px;
+    width: 329px;
     height: 56px;
-    left: 46px;
+    left: 37px;
     top: 513px;
     font-family: 'Inter';
     font-style: normal;
@@ -518,7 +542,7 @@
 .texteBotTop {
 
     position: absolute;
-    width: 1129px;
+    width: 1262px;
     height: 84px;
     left: 80px;
     top: 1109px;
@@ -576,7 +600,25 @@
     color: #000000;
 }
 
-.checkingre1 {
+.ingredienCheck{
+
+    display: grid;
+    grid-template-rows: repeat(1,1fr);
+    grid-template-columns: repeat(1,1fr);
+    position: relative;
+    margin-left: 171px;
+    left: -177px;
+    top: 3px;
+    row-gap: 94px;
+    column-gap: -25px;
+}
+
+.ingrechek1{
+
+    position: relative;
+}
+
+.checkingre {
 
     position: absolute;
     width: 24px;
@@ -585,7 +627,7 @@
     top: 1426px;
 }
 
-.texteingre1 {
+.texteingre {
 
     position: absolute;
     width: 223px;
@@ -605,122 +647,9 @@
     color: #000000;
 }
 
-.checkingre2 {
-    position: absolute;
-    width: 24px;
-    height: 24px;
-    left: 80px;
-    top: 1514px;
 
-}
 
-.texteingre2 {
-
-    position: absolute;
-    width: 223px;
-    height: 22px;
-    left: 128px;
-    top: 1515px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-    /* identical to box height */
-
-    letter-spacing: -0.02em;
-
-    color: #000000;
-}
-
-.checkingre3 {
-
-    position: absolute;
-    width: 24px;
-    height: 24px;
-    left: 80px;
-    top: 1602px;
-}
-
-.texteingre3 {
-
-    position: absolute;
-    width: 223px;
-    height: 22px;
-    left: 128px;
-    top: 1603px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-    /* identical to box height */
-
-    letter-spacing: -0.02em;
-
-    color: #000000;
-}
-
-.checkingre4 {
-
-    position: absolute;
-    width: 24px;
-    height: 24px;
-    left: 80px;
-    top: 1690px;
-}
-
-.texteingre4 {
-
-    position: absolute;
-    width: 223px;
-    height: 22px;
-    left: 128px;
-    top: 1691px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-    /* identical to box height */
-
-    letter-spacing: -0.02em;
-
-    color: #000000;
-}
-
-.checkingre5 {
-    position: absolute;
-    width: 24px;
-    height: 24px;
-    left: 80px;
-    top: 1778px;
-}
-
-.texteingre5 {
-
-    position: absolute;
-    width: 223px;
-    height: 22px;
-    left: 128px;
-    top: 1779px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-    /* identical to box height */
-
-    letter-spacing: -0.02em;
-
-    color: #000000;
-}
-
-.ingreséparation1 {
+.ingreséparation {
     position: absolute;
     width: 840px;
     height: 0px;
@@ -731,51 +660,10 @@
 
 }
 
-.ingreséparation2 {
 
-    position: absolute;
-    width: 840px;
-    height: 0px;
-    left: 80px;
-    top: 1570px;
-
-    border: 1px solid rgba(0, 0, 0, 0.1);
-}
-
-.ingreséparation3 {
-    position: absolute;
-    width: 840px;
-    height: 0px;
-    left: 80px;
-    top: 1658px;
-
-    border: 1px solid rgba(0, 0, 0, 0.1);
-
-}
-
-.ingreséparation4 {
-
-    position: absolute;
-    width: 840px;
-    height: 0px;
-    left: 80px;
-    top: 1746px;
-
-    border: 1px solid rgba(0, 0, 0, 0.1);
-}
-
-.ingreséparation5 {
-
-    position: absolute;
-    width: 840px;
-    height: 0px;
-    left: 80px;
-    top: 1834px;
-
-    border: 1px solid rgba(0, 0, 0, 0.1);
-}
 
 /* OTHER RECIPE */
+
 
 .TireOR {
 
@@ -798,7 +686,28 @@
 
 }
 
-.imgORrecette1 {
+.OtherRecipe{
+    display: grid;
+    grid-template-rows: repeat(1,1fr);
+    grid-template-columns: repeat(1,1fr);
+    position: relative;
+    margin-left: 171px;
+    left: -177px;
+    top: -350px;
+    row-gap: 39px;
+    column-gap: -25px;
+}
+
+.OtherRecipe1{
+
+    position: relative;
+    width: 400px;
+    height: 120px;
+   
+
+}
+
+.imgORrecette {
     position: absolute;
     width: 180px;
     height: 120px;
@@ -807,7 +716,7 @@
 
 }
 
-.ORtitre1 {
+.ORtitre {
 
     position: absolute;
     width: 196px;
@@ -828,7 +737,7 @@
 
 }
 
-.ORauteur1 {
+.ORauteur {
 
     position: absolute;
     width: 113px;
@@ -848,106 +757,6 @@
     color: rgba(0, 0, 0, 0.6);
 }
 
-.imgORrecette2 {
-    position: absolute;
-    width: 180px;
-    height: 120px;
-    left: 960px;
-    top: 1488px;
-
-}
-
-.ORtitre2 {
-
-    position: absolute;
-    width: 196px;
-    height: 56px;
-    left: 1164px;
-    top: 1504px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 28px;
-    /* or 140% */
-
-    letter-spacing: -0.04em;
-
-    color: #000000;
-
-
-}
-
-.ORauteur2 {
-
-    position: absolute;
-    width: 113px;
-    height: 17px;
-    left: 1164px;
-    top: 1576px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 17px;
-    /* identical to box height */
-
-    letter-spacing: -0.02em;
-
-    color: rgba(0, 0, 0, 0.6);
-}
-
-.imgORrecette3 {
-    position: absolute;
-    width: 180px;
-    height: 120px;
-    left: 960px;
-    top: 1632px;
-
-}
-
-.ORtitre3 {
-
-    position: absolute;
-    width: 196px;
-    height: 56px;
-    left: 1164px;
-    top: 1648px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 28px;
-    /* or 140% */
-
-    letter-spacing: -0.04em;
-
-    color: #000000;
-
-}
-
-.ORauteur3 {
-
-    position: absolute;
-    width: 113px;
-    height: 17px;
-    left: 1164px;
-    top: 1720px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 17px;
-    /* identical to box height */
-
-    letter-spacing: -0.02em;
-
-    color: rgba(0, 0, 0, 0.6);
-}
 
 .pub2 {
     position: absolute;
@@ -982,7 +791,24 @@
 
 }
 
-.checksauce1 {
+.checkSauce{
+    display: grid;
+    grid-template-rows: repeat(1,1fr);
+    grid-template-columns: repeat(1,1fr);
+    position: relative;
+    margin-left: 171px;
+    left: -177px;
+    top: -813px;
+    row-gap: 95px;
+    column-gap: -25px;
+}
+.checkSauce1{
+position: relative;
+
+}
+
+
+.checksauce {
 
     position: absolute;
     width: 24px;
@@ -991,7 +817,7 @@
     top: 1959px;
 }
 
-.textesauce1 {
+.textesauce {
 
     position: absolute;
     width: 223px;
@@ -1011,7 +837,7 @@
     color: #000000;
 }
 
-.sauceséparation1 {
+.sauceséparation {
     position: absolute;
     width: 840px;
     height: 0px;
@@ -1021,89 +847,10 @@
     border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.checksauce2 {
-    position: absolute;
-    width: 24px;
-    height: 24px;
-    left: 80px;
-    top: 2047px;
-
-}
-
-.textesauce2 {
-
-    position: absolute;
-    width: 223px;
-    height: 22px;
-    left: 128px;
-    top: 2048px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-    /* identical to box height */
-
-    letter-spacing: -0.02em;
-
-    color: #000000;
-}
-
-.sauceséparation2 {
-    position: absolute;
-    width: 840px;
-    height: 0px;
-    left: 80px;
-    top: 2103px;
-
-    border: 1px solid rgba(0, 0, 0, 0.1);
-}
-
-.checksauce3 {
-    position: absolute;
-    width: 24px;
-    height: 24px;
-    left: 80px;
-    top: 2135px;
-
-
-
-}
-
-.textesauce3 {
-    position: absolute;
-    width: 223px;
-    height: 22px;
-    left: 128px;
-    top: 2136px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-    /* identical to box height */
-
-    letter-spacing: -0.02em;
-
-    color: #000000;
-
-}
-
-.sauceséparation3 {
-    position: absolute;
-    width: 840px;
-    height: 0px;
-    left: 80px;
-    top: 2191px;
-
-    border: 1px solid rgba(0, 0, 0, 0.1);
-}
 
 /* BOT PAGE */
 
-.titrestep {
+.titrestep1 {
 
     position: absolute;
     width: 165px;
@@ -1122,8 +869,35 @@
 
     color: #000000;
 }
+.directiongrid{
+    display: grid;
+    grid-template-rows: repeat(1,1fr);
+    grid-template-columns: repeat(1,1fr);
+    position: relative;
+    margin-left: 171px;
+    left: -177px;
+    top: -7px;
+    row-gap: 503px;
+    column-gap: -25px;
 
-.checkstep1 {
+}
+.directiongrid2{
+    display: grid;
+    grid-template-rows: repeat(1,1fr);
+    grid-template-columns: repeat(1,1fr);
+    position: relative;
+    margin-left: 171px;
+    left: -177px;
+    top: 828px;
+    row-gap: 246px;
+    column-gap: -25px;
+
+}
+.etape1{
+    position: relative;
+}
+
+.checkstep {
     position: absolute;
     width: 24px;
     height: 24px;
@@ -1133,7 +907,7 @@
 
 }
 
-.titrestep1 {
+.titrestep {
 
     position: absolute;
     width: 339px;
@@ -1153,10 +927,10 @@
     color: #000000;
 }
 
-.textestep1 {
+.textestep {
 
     position: absolute;
-    width: 669px;
+    width: 784px;
     height: 104px;
     left: 128px;
     top: 2408px;
@@ -1173,7 +947,7 @@
     color: rgba(0, 0, 0, 0.6);
 }
 
-.imgstep1 {
+.imgstep {
 
     position: absolute;
     width: 792px;
@@ -1188,7 +962,7 @@
 .textestep2 {
 
     position: absolute;
-    width: 667px;
+    width: 784px;
     height: 104px;
     left: 128px;
     top: 3008px;
@@ -1206,7 +980,7 @@
 }
 
 
-.stepséparation1 {
+.stepséparation {
 
     position: absolute;
     width: 840px;
@@ -1254,7 +1028,7 @@
 
 
     position: absolute;
-    width: 667px;
+    width: 784px;
     height: 104px;
     left: 128px;
     top: 3261px;
@@ -1274,13 +1048,11 @@
 
 
 .stepséparation2 {
-
     position: absolute;
     width: 840px;
     height: 0px;
     left: 80px;
-    top: 3413px;
-
+    top: 2565px;
     border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
@@ -1319,7 +1091,7 @@
 .textestep4 {
 
     position: absolute;
-    width: 667px;
+    width: 784px;
     height: 104px;
     left: 128px;
     top: 3514px;
@@ -1339,45 +1111,42 @@
 
 
 .stepséparation3 {
-
     position: absolute;
     width: 840px;
     height: 0px;
     left: 80px;
-    top: 3666px;
-
+    top: 2560px;
     border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 /* email subscribe */
 
-.subscribe2{
+.subscribe2 {
 
     position: absolute;
     width: 1280px;
     height: 442px;
-    left: 80px;
+    left: 149px;
     top: 3826px;
-    
     background: #E7F9FD;
     border-radius: 60px;
 
 }
 
-.imgemail1v2{
+.imgemail1v2 {
 
     position: absolute;
     width: 260.07px;
     height: 260.62px;
     left: 1020px;
     top: 180px;
-  
+
     filter: drop-shadow(0px 10px 24px rgba(0, 0, 0, 0.1));
     border-radius: 0px 0px 20% 0px;
 
 }
 
-.imgemail3v2{
+.imgemail3v2 {
     position: absolute;
     left: 954px;
     top: 214px;
@@ -1386,55 +1155,62 @@
 
 /* Like recipe too */
 
-.Recipelike{
+.Recipelike {
 
     display: grid;
+    /* grid-template-rows: repeat(4,1fr); */
+    grid-template-columns: repeat(4,1fr);
+    position: relative;
+    margin-left: 171px;
+    left: -126px;
+    top: 258px;
+    row-gap: 371px;
+    column-gap: -25px;
 }
 
 
-.RecipelikeTitre{
+.RecipelikeTitre {
 
     position: absolute;
-width: 468px;
-height: 44px;
-left: 486px;
-top: 4428px;
+    width: 468px;
+    height: 44px;
+    left: 560px;
+    top: 4428px;
 
-font-family: 'Inter';
-font-style: normal;
-font-weight: 600;
-font-size: 36px;
-line-height: 44px;
-/* identical to box height */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
 
-letter-spacing: -0.04em;
+    letter-spacing: -0.04em;
 
-color: #000000;
+    color: #000000;
 }
 
 
-.Recipelike1{
+.Recipelike1 {
+    position: relative;
+   
+
+}
+
+.imgRL {
+
     position: absolute;
-    left: 90px;
-    top: 378px;
-
-}
-
-.imgRL{
-
-    position: absolute;
-width: 290px;
-height: 210.2px;
-left: 80px;
-top: 4190px;
+    width: 290px;
+    height: 210.2px;
+    left: 80px;
+    top: 4190px;
 
 
-border-radius: 20px;
+    border-radius: 20px;
 
 }
 
 
-.likeRL{
+.likeRL {
 
     position: absolute;
     width: 48px;
@@ -1443,57 +1219,57 @@ border-radius: 20px;
     top: 4205px;
 }
 
-.RLtexte{
+.RLtexte {
 
     position: absolute;
     width: 290px;
     height: 52px;
     left: 80px;
     top: 4426px;
-    
+
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
     line-height: 26px;
     /* or 144% */
-    
+
     letter-spacing: -0.04em;
-    
+
     color: #000000;
 
 }
 
-.imgTimeRL{
+.imgTimeRL {
 
     position: absolute;
-width: 18px;
-height: 18px;
-left: 83px;
-top: 4505px;
+    width: 18px;
+    height: 18px;
+    left: 83px;
+    top: 4505px;
 
 }
 
-.minRL{
+.minRL {
     position: absolute;
     width: 73px;
     height: 17px;
     left: 114px;
     top: 4505px;
-    
+
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 17px;
     /* identical to box height */
-    
+
     letter-spacing: -0.02em;
-    
+
     color: rgba(0, 0, 0, 0.6);
 }
 
-.imgCatRL{
+.imgCatRL {
 
     position: absolute;
     width: 24px;
@@ -1503,68 +1279,46 @@ top: 4505px;
 }
 
 
-.catRL{
+.catRL {
 
     position: absolute;
     width: 50px;
     height: 17px;
     left: 245px;
     top: 4505px;
-    
+
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 17px;
     /* identical to box height */
-    
+
     letter-spacing: -0.02em;
-    
+
     color: rgba(0, 0, 0, 0.6);
 }
 
-.Recipelike2{
-    position: absolute;
-    left: 415px;
-    top: 378px;
 
-}
-
-
-.Recipelike3{
-    position: absolute;
-    left: 740px;
-    top: 378px;
-
-}
-
-.Recipelike4{
-    position: absolute;
-    left: 1070px;
-    top: 378px;
-
-}
 
 .footerPR {
     width: 100%;
     display: flex;
-  
+
     justify-content: space-between;
     padding: 20px;
-  
+
     align-items: center;
     background-color: rgb(255, 255, 255);
     margin-top: 315%;
     margin-bottom: 3%;
     padding-bottom: 0%;
-  
-  }
 
-  .footerPR a {
+}
+
+.footerPR a {
 
     text-decoration: none;
     color: black;
-  
-  }
 
-
+}
