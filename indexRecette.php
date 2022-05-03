@@ -117,29 +117,29 @@
             <span class="maindish">For main dish</span>
             <div class="ingredienCheck">
                 <div class="ingrechek1">
-                <img class="checkingre" src="./img/stepcheck.png" alt="">
-                <span class="texteingre">Lorem ipsum dolor sit amet</span>
-                <hr class="ingreséparation">
-            </div>
-            <div class="ingrechek1">
-                <img class="checkingre" src="./img/stepuncheck.png" alt="">
-                <span class="texteingre">Lorem ipsum dolor sit amet</span>
-                <hr class="ingreséparation">
+                    <img class="checkingre" src="./img/stepcheck.png" alt="">
+                    <span class="texteingre">Lorem ipsum dolor sit amet</span>
+                    <hr class="ingreséparation">
                 </div>
                 <div class="ingrechek1">
-                <img class="checkingre" src="./img/stepuncheck.png" alt="">
-                <span class="texteingre">Lorem ipsum dolor sit amet</span>
-                <hr class="ingreséparation">
+                    <img class="checkingre" src="./img/stepuncheck.png" alt="">
+                    <span class="texteingre">Lorem ipsum dolor sit amet</span>
+                    <hr class="ingreséparation">
                 </div>
                 <div class="ingrechek1">
-                <img class="checkingre" src="./img/stepuncheck.png" alt="">
-                <span class="texteingre">Lorem ipsum dolor sit amet</span>
-                <hr class="ingreséparation">
+                    <img class="checkingre" src="./img/stepuncheck.png" alt="">
+                    <span class="texteingre">Lorem ipsum dolor sit amet</span>
+                    <hr class="ingreséparation">
                 </div>
                 <div class="ingrechek1">
-                <img class="checkingre" src="./img/stepuncheck.png" alt="">
-                <span class="texteingre">Lorem ipsum dolor sit amet</span>
-                <hr class="ingreséparation">
+                    <img class="checkingre" src="./img/stepuncheck.png" alt="">
+                    <span class="texteingre">Lorem ipsum dolor sit amet</span>
+                    <hr class="ingreséparation">
+                </div>
+                <div class="ingrechek1">
+                    <img class="checkingre" src="./img/stepuncheck.png" alt="">
+                    <span class="texteingre">Lorem ipsum dolor sit amet</span>
+                    <hr class="ingreséparation">
                 </div>
 
             </div>
@@ -148,19 +148,19 @@
         <span class="TireOR">Other Recipe</span>
         <div class="OtherRecipe">
             <div class="OtherRecipe1">
-            <img class="imgORrecette" src="./img/ORchiken.png" alt="">
-            <span class="ORtitre">Chicken Meatball with Creamy Chees...</span>
-            <span class="ORauteur">By Andreas Paula</span>
+                <img class="imgORrecette" src="./img/ORchiken.png" alt="">
+                <span class="ORtitre">Chicken Meatball with Creamy Chees...</span>
+                <span class="ORauteur">By Andreas Paula</span>
             </div>
             <div class="OtherRecipe1">
-            <img class="imgORrecette" src="./img/ORcreamy.png" alt="">
-            <span class="ORtitre">The Creamiest Creamy Chicken an...</span>
-            <span class="ORauteur">By Andreas Paula</span>
+                <img class="imgORrecette" src="./img/ORcreamy.png" alt="">
+                <span class="ORtitre">The Creamiest Creamy Chicken an...</span>
+                <span class="ORauteur">By Andreas Paula</span>
             </div>
             <div class="OtherRecipe1">
-            <img class="imgORrecette" src="./img/ORricechicken.png" alt="">
-            <span class="ORtitre">The Best Easy One Pot Chicken and Rice</span>
-            <span class="ORauteur">By Andreas Paula</span>
+                <img class="imgORrecette" src="./img/ORricechicken.png" alt="">
+                <span class="ORtitre">The Best Easy One Pot Chicken and Rice</span>
+                <span class="ORauteur">By Andreas Paula</span>
             </div>
 
             <div class="pub2">
@@ -179,49 +179,55 @@
 
         <div class="Sauce">
             <span class="titreSauce">For the sauce</span>
-            <img class="checksauce1" src="./img/stepuncheck.png" alt="">
-            <span class="textesauce1">Lorem ipsum dolor sit amet</span>
-            <hr class="sauceséparation1">
-            <img class="checksauce2" src="./img/stepuncheck.png" alt="">
-            <span class="textesauce2">Lorem ipsum dolor sit amet</span>
-            <hr class="sauceséparation2">
-            <img class="checksauce3" src="./img/stepuncheck.png" alt="">
-            <span class="textesauce3">Lorem ipsum dolor sit amet</span>
-            <hr class="sauceséparation3">
-
+            <div class="checkSauce">
+                <div class="checkSauce1">
+                    <img class="checksauce" src="./img/stepuncheck.png" alt="">
+                    <span class="textesauce">Lorem ipsum dolor sit amet</span>
+                    <hr class="sauceséparation">
+                </div>
+                <div class="checkSauce1">
+                    <img class="checksauce" src="./img/stepuncheck.png" alt="">
+                    <span class="textesauce">Lorem ipsum dolor sit amet</span>
+                    <hr class="sauceséparation">
+                </div>
+                <div class="checkSauce1">
+                    <img class="checksauce" src="./img/stepuncheck.png" alt="">
+                    <span class="textesauce">Lorem ipsum dolor sit amet</span>
+                    <hr class="sauceséparation">
+                </div>
+            </div>
         </div>
 
     </div>
 
     <div class="RecetteBot">
         <div class="direction">
-            <span class="titrestep">Directions</span>
+            <span class="titrestep1">Directions</span>
+            <div class="directiongrid">
+                <div class="etape1">
 
-            <img class="checkstep1" src="./img/stepuncheck.png" alt="">
-            <span class="titrestep1">1. Lorem ipsum dolor sit amet</span>
-            <span class="textestep1">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</span>
-
-            <img class="imgstep1" src="./img/imgDirection.png" alt="">
-
-            <span class="textestep2">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</span>
-
-            <hr class="stepséparation1">
-
-
-            <img class="checkstep2" src="./img/stepuncheck.png" alt="">
-            <span class="titrestep2">2. Lorem ipsum dolor sit amet </span>
-            <span class="textestep3">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</span>
-
-            <hr class="stepséparation2">
-
-
-            <img class="checkstep3" src="./img/stepuncheck.png" alt="">
-            <span class="titrestep3">3. Lorem ipsum dolor sit amet </span>
-            <span class="textestep4">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</span>
-
-            <hr class="stepséparation3">
-
-
+                    <img class="checkstep" src="./img/stepuncheck.png" alt="">
+                    <span class="titrestep">1. Lorem ipsum dolor sit amet</span>
+                    <span class="textestep">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</span>
+                    <img class="imgstep" src="./img/imgDirection.png" alt="">
+                    <span class="textestep2">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</span>
+                    <hr class="stepséparation">
+                </div>
+            </div>
+                <div class="directiongrid2">
+                <div class="etape1">
+                    <img class="checkstep" src="./img/stepuncheck.png" alt="">
+                    <span class="titrestep">2. Lorem ipsum dolor sit amet </span>
+                    <span class="textestep">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</span>
+                    <hr class="stepséparation2">
+                </div>
+                <div class="etape1">
+                    <img class="checkstep" src="./img/stepuncheck.png" alt="">
+                    <span class="titrestep">3. Lorem ipsum dolor sit amet </span>
+                    <span class="textestep">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</span>
+                    <hr class="stepséparation3">
+                </div>
+            </div>
         </div>
 
 
