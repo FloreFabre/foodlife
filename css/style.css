@@ -7,9 +7,16 @@
   box-sizing: border-box;
 
 }
+/* html{
+  background-color: #000000;
+}
 
-
-
+body{
+margin-left: auto;
+margin-right: auto;
+max-width: 1440px;
+background: white;
+} */
 
 a {
   text-decoration: none;
@@ -192,7 +199,7 @@ li {
 
   align-items: center;
   background-color: rgb(255, 255, 255);
-  margin-top: 360%;
+  margin-top: 200%;
   margin-bottom: 3%;
   padding-bottom: 0%;
 
@@ -292,6 +299,17 @@ li {
 .imgD {
   position: absolute;
   border-radius: 0px 20px 20px 0px;
+
+}
+
+.imgDapproved {
+
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  left: 719px;
+  top: 206px;
+
 
 }
 
@@ -603,7 +621,7 @@ li {
   position: absolute;
   width: 146px;
   height: 19px;
-  left: 40px;
+  left: 29px;
   top: 20px;
 
   font-family: 'Inter';
@@ -920,11 +938,7 @@ li {
 
 /* Section Chef */
 
-.chef {
 
-  display: grid;
-
-}
 
 
 .titrechef {

@@ -55,12 +55,10 @@
   </header>
 
   <div class="grid">
+
     <div class="recettedroite">
       <img class="imgD" src="./img/chickenwings.png" alt="">
     </div>
-
-
-
 
     <div class="recettegauche">
 
@@ -101,7 +99,7 @@
       </div>
 
     </div>
-
+    <img class="imgDapproved" src="./img/Badge.png" alt="">
   </div>
 
   <!-- CATEGORIES -->
@@ -153,23 +151,17 @@
 
   <span class="simplyrecipes">Simple and tasty recipes</span>
   <span class="simplyTexte">Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim </span>
-
-  <div class="recette">
-
-
-    <div class="recette1">
-      <img class="imgR" src="./img/burger.png" alt="">
+<div class="griid">
+  <div class="recette1">
+  <img class="imgR" src="./img/burger.png" alt="">
       <div class="likeR">
         <div class="likeB">
           <i class="iB"></i>
           <span class="spanB">liked!</span>
         </div>
-        <!-- partial -->
         <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
         <script src="./script.js"></script>
-
       </div>
-
       <span class="recetteTexte"> Big and Juicy Wagyu Beef Cheeseburger</span>
       <img class="imgTimeR" src="./img/Vector.png" alt="">
       <span class="minR"> 30 Minutes</span>
@@ -178,12 +170,9 @@
         <img class="" src="./img/Vector (2).png" alt="">
       </div>
       <span class="catR">Snack</span>
-
-    </div>
-
-
-    <div class="recette2">
-      <img class="imgR" src="./img/fish.png" alt="">
+  </div>
+  <div class="recette1">
+  <img class="imgR" src="./img/fish.png" alt="">
       <img class="likeR" src="./img/unlike.png" alt="">
       <span class="recetteTexte"> Fresh Lime Roasted Salmon with Ginger Sauce</span>
       <img class="imgTimeR" src="./img/Vector.png" alt="">
@@ -193,11 +182,9 @@
         <img class="" src="./img/Vector (2).png" alt="">
       </div>
       <span class="catR">Fish</span>
-
-    </div>
-
-    <div class="recette3">
-      <img class="imgR" src="./img/pancake.png" alt="">
+  </div>
+  <div class="recette1">
+  <img class="imgR" src="./img/pancake.png" alt="">
       <img class="likeR" src="./img/unlike.png" alt="">
       <span class="recetteTexte"> Strawberry Oatmeal Pancake with Honey Syrup</span>
       <img class="imgTimeR" src="./img/Vector.png" alt="">
@@ -207,11 +194,9 @@
         <img class="" src="./img/Vector (2).png" alt="">
       </div>
       <span class="catR">Breakfast</span>
-
-    </div>
-
-    <div class="recette4">
-      <img class="imgR" src="./img/mixedmayo.png" alt="">
+  </div>
+  <div class="recette1">
+  <img class="imgR" src="./img/mixedmayo.png" alt="">
       <img class="likeR" src="./img/like.png" alt="">
       <span class="recetteTexte"> Fresh and Healthy Mixed Mayonnaise Salad</span>
       <img class="imgTimeR" src="./img/Vector.png" alt="">
@@ -221,12 +206,9 @@
         <img class="" src="./img/Vector (2).png" alt="">
       </div>
       <span class="catR">Healthy</span>
-
-    </div>
-
-    <div class="recette5">
-
-      <img class="imgR" src="./img/meatballs.png" alt="">
+  </div>
+  <div class="recette1">
+  <img class="imgR" src="./img/meatballs.png" alt="">
       <img class="likeR" src="./img/unlike.png" alt="">
       <span class="recetteTexte"> Chicken Meatballs with Cream Cheese</span>
       <img class="imgTimeR" src="./img/Vector.png" alt="">
@@ -236,23 +218,18 @@
         <img class="" src="./img/Vector (2).png" alt="">
       </div>
       <span class="catR">Meat</span>
+  </div>
+  <div class="pub">
+  <span class="textpub">Don’t forget to eat
+  healthy food</span>
+<img class="imgpub" src="./img/pubfood.png" alt="">
+<img class="starpub" src="./img/pubstar.png" alt="">
 
-    </div>
+<span class="lienpub">www.foodieland.com</span>
 
-    <div class="pub">
-
-      <span class="textpub">Don’t forget to eat
-        healthy food</span>
-      <img class="imgpub" src="./img/pubfood.png" alt="">
-      <img class="starpub" src="./img/pubstar.png" alt="">
-
-      <span class="lienpub">www.foodieland.com</span>
-
-
-    </div>
-
-    <div class="recette6">
-      <img class="imgR" src="./img/orangepancake.png" alt="">
+  </div>
+  <div class="recette1">
+  <img class="imgR" src="./img/orangepancake.png" alt="">
       <img class="likeR" src="./img/like.png" alt="">
       <span class="recetteTexte"> Fruity Pancake with Orange & Blueberry</span>
       <img class="imgTimeR" src="./img/Vector.png" alt="">
@@ -262,11 +239,9 @@
         <img class="" src="./img/Vector (2).png" alt="">
       </div>
       <span class="catR">Sweet</span>
-
-    </div>
-
-    <div class="recette7">
-      <img class="imgR" src="./img/chickenrice.png" alt="">
+  </div>
+  <div class="recette1">
+  <img class="imgR" src="./img/chickenrice.png" alt="">
       <img class="likeR" src="./img/unlike.png" alt="">
       <span class="recetteTexte">The Best Easy One Pot Chicken and Rice</span>
       <img class="imgTimeR" src="./img/Vector.png" alt="">
@@ -276,12 +251,9 @@
         <img class="" src="./img/Vector (2).png" alt="">
       </div>
       <span class="catR">Snack</span>
-
-    </div>
-
-
-    <div class="recette8">
-      <img class="imgR" src="./img/creamychicken.png" alt="">
+  </div>
+  <div class="recette1">
+  <img class="imgR" src="./img/creamychicken.png" alt="">
       <img class="likeR" src="./img/unlike.png" alt="">
       <span class="recetteTexte">The Creamiest Creamy Chicken and Bacon Pasta</span>
       <img class="imgTimeR" src="./img/Vector.png" alt="">
@@ -291,13 +263,9 @@
         <img class="" src="./img/Vector (2).png" alt="">
       </div>
       <span class="catR">Noodles</span>
-
-    </div>
-
   </div>
+</div>
 
-
-  <!-- Section du chef -->
 
   <div class="chef">
 
@@ -325,6 +293,8 @@
 
   <!-- Section Recette délicieuse -->
 
+
+  
   <div class="deliciousRecipe">
 
 
@@ -333,9 +303,13 @@
 
     <span class="deliciousRecipeTexte">Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim </span>
 
-    <div class="deliciousRecipe1">
+  </div>
 
-      <img class="imgDR" src="./img/tropicalfruit.png" alt="">
+
+<div class="griiid">
+
+<div class="deliciousRecipe1">
+<img class="imgDR" src="./img/tropicalfruit.png" alt="">
       <img class="likeDR" src="./img/like.png" alt="">
 
       <span class="DRtexte">Mixed Tropical Fruit Salad with Superfood Boosts </span>
@@ -347,14 +321,9 @@
         <img class="" src="./img/Vector (2).png" alt="">
       </div>
       <span class="catDR">Healthy</span>
-
-
-    </div>
-
-
-    <div class="deliciousRecipe2">
-
-      <img class="imgDR" src="./img/wagyubeef.png" alt="">
+</div>
+<div class="deliciousRecipe1">
+<img class="imgDR" src="./img/wagyubeef.png" alt="">
       <img class="likeDR" src="./img/unlike.png" alt="">
 
       <span class="DRtexte">Big and Juicy Wagyu Beef Cheeseburger </span>
@@ -366,13 +335,9 @@
         <img class="" src="./img/Vector (2).png" alt="">
       </div>
       <span class="catDR">Western</span>
-
-
-    </div>
-
-    <div class="deliciousRecipe3">
-
-      <img class="imgDR" src="./img/friedriceasparagus.png" alt="">
+</div>
+<div class="deliciousRecipe1">
+<img class="imgDR" src="./img/friedriceasparagus.png" alt="">
       <img class="likeDR" src="./img/like.png" alt="">
 
       <span class="DRtexte">Healthy Japanese Fried Rice with Asparagus</span>
@@ -384,13 +349,9 @@
         <img class="" src="./img/Vector (2).png" alt="">
       </div>
       <span class="catDR">Healthy</span>
-
-
-    </div>
-
-    <div class="deliciousRecipe4">
-
-      <img class="imgDR" src="./img/tacomeat.png" alt="">
+</div>
+<div class="deliciousRecipe1">
+<img class="imgDR" src="./img/tacomeat.png" alt="">
       <img class="likeDR" src="./img/unlike.png" alt="">
 
       <span class="DRtexte">Cauliflower Walnut Vegetarian Taco Meat</span>
@@ -402,13 +363,9 @@
         <img class="" src="./img/Vector (2).png" alt="">
       </div>
       <span class="catDR">Eastern</span>
-
-
-    </div>
-
-    <div class="deliciousRecipe5">
-
-      <img class="imgDR" src="./img/chikensalad.png" alt="">
+</div>
+<div class="deliciousRecipe1">
+<img class="imgDR" src="./img/chikensalad.png" alt="">
       <img class="likeDR" src="./img/like.png" alt="">
 
       <span class="DRtexte">Rainbow Chicken Salad with Almond Honey Mustard Dressing</span>
@@ -420,13 +377,9 @@
         <img class="" src="./img/Vector (2).png" alt="">
       </div>
       <span class="catDR">Healthy</span>
-
-
-    </div>
-
-    <div class="deliciousRecipe6">
-
-      <img class="imgDR" src="./img/spicysandwiches.png" alt="">
+</div>
+<div class="deliciousRecipe1">
+<img class="imgDR" src="./img/spicysandwiches.png" alt="">
       <img class="likeDR" src="./img/unlike.png" alt="">
 
       <span class="DRtexte">Barbeque Spicy Sandwiches with Chips </span>
@@ -438,13 +391,9 @@
         <img class="" src="./img/Vector (2).png" alt="">
       </div>
       <span class="catDR">Snack</span>
-
-
-    </div>
-
-    <div class="deliciousRecipe7">
-
-      <img class="imgDR" src="./img/lettucewrap.png" alt="">
+</div>
+<div class="deliciousRecipe1">
+<img class="imgDR" src="./img/lettucewrap.png" alt="">
       <img class="likeDR" src="./img/unlike.png" alt="">
 
       <span class="DRtexte">Firecracker Vegan Lettuce Wraps - Spicy!</span>
@@ -456,13 +405,9 @@
         <img class="" src="./img/Vector (2).png" alt="">
       </div>
       <span class="catDR">Seafood</span>
-
-
-    </div>
-
-    <div class="deliciousRecipe8">
-
-      <img class="imgDR" src="./img/chikenramen.png" alt="">
+</div>
+<div class="deliciousRecipe1">
+<img class="imgDR" src="./img/chikenramen.png" alt="">
       <img class="likeDR" src="./img/like.png" alt="">
 
       <span class="DRtexte">Chicken Ramen Soup with Mushroom </span>
@@ -474,31 +419,25 @@
         <img class="" src="./img/Vector (2).png" alt="">
       </div>
       <span class="catDR">Japanese</span>
+</div>
 
 
-    </div>
-
-
-
-  </div>
-
-
-
+</div>
 
   <div class="subscribe">
 
-  <span class="subscribetitre">Deliciousness to your inbox</span>
+    <span class="subscribetitre">Deliciousness to your inbox</span>
 
-  <span class="subscribetexte">Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim </span>
+    <span class="subscribetexte">Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim </span>
 
     <img class="imgemail1" src="./img/Photo-plate.png" alt="">
     <img class="imgemail2" src="./img/kisspng-salad.png" alt="">
     <img class="imgemail3" src="./img/rucola-png.png" alt="">
     <div class="input-comment"> <input type="text" name="texte" id="id" placeholder="Your email address…">
-    <div class="boutonsubscribe">
-    <span class="boutonsubscribeT">Subscribe</span>
-</div>
-  </div>
+      <div class="boutonsubscribe">
+        <span class="boutonsubscribeT">Subscribe</span>
+      </div>
+    </div>
 
 
 
@@ -508,7 +447,8 @@
     <i class="iB"></i>
     <span class="spanB">liked!</span>
   </div>
-  <!-- partial --><!--
+  <!-- partial -->
+  <!--
   <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
   <script src="./script.js"></script>-->
 

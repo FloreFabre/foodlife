@@ -1,6 +1,13 @@
-.deliciousRecipe{
-display: grid;
-
+.griiid{
+    display: grid;
+    grid-template-rows: repeat(4,1fr);
+    grid-template-columns: repeat(4,1fr);
+    position: relative;
+    margin-left: 171px;
+    left: -117px;
+    top: -1520px;
+    row-gap: 371px;
+    column-gap: -25px;
 }
 
 .deliciousRecipeTitre{
@@ -44,10 +51,10 @@ display: grid;
 /* DR1 */
 
 .deliciousRecipe1{
-    position: absolute;
-   
-    left: 90px;
+    position: relative;
     top: 0px;
+    left: 0px;
+   
 
 }
 

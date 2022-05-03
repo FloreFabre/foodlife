@@ -116,38 +116,52 @@
             <span class="ingredientTitre">Ingredients</span>
             <span class="maindish">For main dish</span>
             <div class="ingredienCheck">
-                <img class="checkingre1" src="./img/stepcheck.png" alt="">
-                <span class="texteingre1">Lorem ipsum dolor sit amet</span>
-                <hr class="ingreséparation1">
-                <img class="checkingre2" src="./img/stepuncheck.png" alt="">
-                <span class="texteingre2">Lorem ipsum dolor sit amet</span>
-                <hr class="ingreséparation2">
-                <img class="checkingre3" src="./img/stepuncheck.png" alt="">
-                <span class="texteingre3">Lorem ipsum dolor sit amet</span>
-                <hr class="ingreséparation3">
-                <img class="checkingre4" src="./img/stepuncheck.png" alt="">
-                <span class="texteingre4">Lorem ipsum dolor sit amet</span>
-                <hr class="ingreséparation4">
-                <img class="checkingre5" src="./img/stepuncheck.png" alt="">
-                <span class="texteingre5">Lorem ipsum dolor sit amet</span>
-                <hr class="ingreséparation5">
+                <div class="ingrechek1">
+                <img class="checkingre" src="./img/stepcheck.png" alt="">
+                <span class="texteingre">Lorem ipsum dolor sit amet</span>
+                <hr class="ingreséparation">
+            </div>
+            <div class="ingrechek1">
+                <img class="checkingre" src="./img/stepuncheck.png" alt="">
+                <span class="texteingre">Lorem ipsum dolor sit amet</span>
+                <hr class="ingreséparation">
+                </div>
+                <div class="ingrechek1">
+                <img class="checkingre" src="./img/stepuncheck.png" alt="">
+                <span class="texteingre">Lorem ipsum dolor sit amet</span>
+                <hr class="ingreséparation">
+                </div>
+                <div class="ingrechek1">
+                <img class="checkingre" src="./img/stepuncheck.png" alt="">
+                <span class="texteingre">Lorem ipsum dolor sit amet</span>
+                <hr class="ingreséparation">
+                </div>
+                <div class="ingrechek1">
+                <img class="checkingre" src="./img/stepuncheck.png" alt="">
+                <span class="texteingre">Lorem ipsum dolor sit amet</span>
+                <hr class="ingreséparation">
+                </div>
 
             </div>
         </div>
+
+        <span class="TireOR">Other Recipe</span>
         <div class="OtherRecipe">
-            <span class="TireOR">Other Recipe</span>
-
-            <img class="imgORrecette1" src="./img/ORchiken.png" alt="">
-            <span class="ORtitre1">Chicken Meatball with Creamy Chees...</span>
-            <span class="ORauteur1">By Andreas Paula</span>
-
-            <img class="imgORrecette2" src="./img/ORcreamy.png" alt="">
-            <span class="ORtitre2">The Creamiest Creamy Chicken an...</span>
-            <span class="ORauteur2">By Andreas Paula</span>
-
-            <img class="imgORrecette3" src="./img/ORricechicken.png" alt="">
-            <span class="ORtitre3">The Best Easy One Pot Chicken and Rice</span>
-            <span class="ORauteur3">By Andreas Paula</span>
+            <div class="OtherRecipe1">
+            <img class="imgORrecette" src="./img/ORchiken.png" alt="">
+            <span class="ORtitre">Chicken Meatball with Creamy Chees...</span>
+            <span class="ORauteur">By Andreas Paula</span>
+            </div>
+            <div class="OtherRecipe1">
+            <img class="imgORrecette" src="./img/ORcreamy.png" alt="">
+            <span class="ORtitre">The Creamiest Creamy Chicken an...</span>
+            <span class="ORauteur">By Andreas Paula</span>
+            </div>
+            <div class="OtherRecipe1">
+            <img class="imgORrecette" src="./img/ORricechicken.png" alt="">
+            <span class="ORtitre">The Best Easy One Pot Chicken and Rice</span>
+            <span class="ORauteur">By Andreas Paula</span>
+            </div>
 
             <div class="pub2">
 
@@ -231,11 +245,11 @@
     </div>
 
 
+
+
+
+    <span class="RecipelikeTitre">You may like these recipe too</span>
     <div class="Recipelike">
-
-
-        <span class="RecipelikeTitre">You may like these recipe too</span>
-
 
 
         <div class="Recipelike1">
@@ -256,7 +270,7 @@
 
         </div>
 
-        <div class="Recipelike2">
+        <div class="Recipelike1">
 
             <img class="imgRL" src="./img/wagyubeef.png" alt="">
             <img class="likeRL" src="./img/unlike.png" alt="">
@@ -274,7 +288,7 @@
 
         </div>
 
-        <div class="Recipelike3">
+        <div class="Recipelike1">
 
             <img class="imgRL" src="./img/friedriceasparagus.png" alt="">
             <img class="likeRL" src="./img/like.png" alt="">
@@ -292,7 +306,7 @@
 
         </div>
 
-        <div class="Recipelike4">
+        <div class="Recipelike1">
 
             <img class="imgRL" src="./img/tacomeat.png" alt="">
             <img class="likeRL" src="./img/unlike.png" alt="">
