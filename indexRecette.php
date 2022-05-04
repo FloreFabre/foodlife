@@ -56,56 +56,13 @@
     </header>
 
     <div class="RecetteTop">
-        <div class="headerRT">
-            <span class="RecetteTopTitre">Health Japanese Fried Rice</span>
-            <div class="auteur2">
-                <img class="imgAuteur" src="./img/jhonsmith.png" alt="">
-
-                <div class="auteurNom2">
-                    <span>John Smith</span>
-                    <span class="timeAuteur2"> 15 March 2022</span>
-                </div>
-            </div>
-            <hr class="séparation1">
-            <img class="imgTimeR" src="./img/Vector.png" alt="">
-            <span class="preptime">PREP TIME</span>
-            <span class="minR"> 15 Minutes</span>
-            <hr class="séparation2">
-            <img class="imgTimeR2" src="./img/Vector.png" alt="">
-            <span class="cooktime">COOK TIME</span>
-            <span class="minR2"> 15 Minutes</span>
-            <hr class="séparation3">
-            <div class="imgCatR">
-                <img class="" src="./img/Vector (1).png" alt="">
-                <img class="" src="./img/Vector (2).png" alt="">
-            </div>
-            <span class="catR">Chicken</span>
-        </div>
-
-        <img class="vidéorecette" src="./img/videorecette.png" alt="">
+    <?php include './requettesPHP/PageRecetteTOP.php'; ?>
+    
 
         <div class="nutritioninfo">
-            <span class="titreNutrition">Nutrition Information</span>
-            <span class="calorie">Calories</span> <span class="Cavaleur">219.9 kcal</span>
-            <hr class="Nséparation1">
-            <span class="totalfat">Total Fat</span> <span class="tvaleur">10.7 g</span>
-            <hr class="Nséparation2">
-            <span class="protein">Protein</span> <span class="pvaleur">7.9 g</span>
-            <hr class="Nséparation3">
-            <span class="carboh"> Carbohydrate</span> <span class="carvaleur">22.3 g</span>
-            <hr class="Nséparation4">
-            <span class="choleste">Cholesterol</span> <span class="chovaleur">37.4 mg</span>
-            <hr class="Nséparation5">
 
-            <span class="texteNutri">adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </span>
-
-
-        </div>
-
-
-        <span class="texteBotTop">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
-
-
+        <?php include './requettesPHP/nutrition.php'; ?>
+     
 
     </div>
 
@@ -116,33 +73,8 @@
             <span class="ingredientTitre">Ingredients</span>
             <span class="maindish">For main dish</span>
             <div class="ingredienCheck">
-                <div class="ingrechek1">
-                    <img class="checkingre" src="./img/stepcheck.png" alt="">
-                    <span class="texteingre">Lorem ipsum dolor sit amet</span>
-                    <hr class="ingreséparation">
-                </div>
-                <div class="ingrechek1">
-                    <img class="checkingre" src="./img/stepuncheck.png" alt="">
-                    <span class="texteingre">Lorem ipsum dolor sit amet</span>
-                    <hr class="ingreséparation">
-                </div>
-                <div class="ingrechek1">
-                    <img class="checkingre" src="./img/stepuncheck.png" alt="">
-                    <span class="texteingre">Lorem ipsum dolor sit amet</span>
-                    <hr class="ingreséparation">
-                </div>
-                <div class="ingrechek1">
-                    <img class="checkingre" src="./img/stepuncheck.png" alt="">
-                    <span class="texteingre">Lorem ipsum dolor sit amet</span>
-                    <hr class="ingreséparation">
-                </div>
-                <div class="ingrechek1">
-                    <img class="checkingre" src="./img/stepuncheck.png" alt="">
-                    <span class="texteingre">Lorem ipsum dolor sit amet</span>
-                    <hr class="ingreséparation">
-                </div>
-
-            </div>
+            <?php include './requettesPHP/ingredient.php'; ?>
+             
         </div>
 
         <span class="TireOR">Other Recipe</span>
