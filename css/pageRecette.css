@@ -36,9 +36,9 @@ body {
 }
 
 .RecetteTopTitre {
-
+   
     position: absolute;
-    width: 777px;
+    width: 1294px;
     height: 77px;
     left: 80px;
     top: 190px;
@@ -1126,7 +1126,7 @@ position: relative;
     position: absolute;
     width: 1280px;
     height: 442px;
-    left: 149px;
+    left: 83px;
     top: 3826px;
     background: #E7F9FD;
     border-radius: 60px;
@@ -1162,8 +1162,8 @@ position: relative;
     grid-template-columns: repeat(4,1fr);
     position: relative;
     margin-left: 171px;
-    left: -126px;
-    top: 258px;
+    left: -174px;
+    top: 360px;
     row-gap: 371px;
     column-gap: -25px;
 }
@@ -1174,18 +1174,14 @@ position: relative;
     position: absolute;
     width: 468px;
     height: 44px;
-    left: 560px;
+    left: 494px;
     top: 4428px;
-
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
     font-size: 36px;
     line-height: 44px;
-    /* identical to box height */
-
     letter-spacing: -0.04em;
-
     color: #000000;
 }
 
@@ -1304,13 +1300,11 @@ position: relative;
 .footerPR {
     width: 100%;
     display: flex;
-
     justify-content: space-between;
-    padding: 20px;
-
+    padding: 368px;
     align-items: center;
     background-color: rgb(255, 255, 255);
-    margin-top: 315%;
+    margin-top: 310%;
     margin-bottom: 3%;
     padding-bottom: 0%;
 
