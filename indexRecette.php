@@ -79,34 +79,9 @@
 
         <span class="TireOR">Other Recipe</span>
         <div class="OtherRecipe">
-            <div class="OtherRecipe1">
-                <img class="imgORrecette" src="./img/ORchiken.png" alt="">
-                <span class="ORtitre">Chicken Meatball with Creamy Chees...</span>
-                <span class="ORauteur">By Andreas Paula</span>
-            </div>
-            <div class="OtherRecipe1">
-                <img class="imgORrecette" src="./img/ORcreamy.png" alt="">
-                <span class="ORtitre">The Creamiest Creamy Chicken an...</span>
-                <span class="ORauteur">By Andreas Paula</span>
-            </div>
-            <div class="OtherRecipe1">
-                <img class="imgORrecette" src="./img/ORricechicken.png" alt="">
-                <span class="ORtitre">The Best Easy One Pot Chicken and Rice</span>
-                <span class="ORauteur">By Andreas Paula</span>
-            </div>
-
-            <div class="pub2">
-
-                <span class="textpub">Don’t forget to eat
-                    healthy food</span>
-                <img class="imgpub" src="./img/pubfood.png" alt="">
-                <img class="starpub" src="./img/pubstar.png" alt="">
-
-                <span class="lienpub">www.foodieland.com</span>
-
-
-            </div>
-
+            
+        <?php include './requettesPHP/otherRecipe.php'; ?>
+          
         </div>
 
         <div class="Sauce">
@@ -136,6 +111,7 @@
         <div class="direction">
             <span class="titrestep1">Directions</span>
             <div class="directiongrid">
+                
                 <div class="etape1">
 
                     <img class="checkstep" src="./img/stepuncheck.png" alt="">
