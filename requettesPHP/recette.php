@@ -1,5 +1,6 @@
 <?php
 $mysqli = new mysqli("localhost", "root", "", "foodlife");
+include('./crud/bdd.php');
 
 
 if ($mysqli->connect_errno) {
@@ -8,7 +9,7 @@ if ($mysqli->connect_errno) {
 }
 
 // Selectionner des données
-$requete_sql = "SELECT titre, photo, dureeprep, type FROM recette, catégorie WHERE id_categorie = catégorie.id LIMIT 9 ";
+$requete_sql = "SELECT titre, photo, dureeprep, type FROM recette, catégorie WHERE id_categorie = catégorie.id ORDER BY recette.id ASC LIMIT 9 ";
 $result = $mysqli->query($requete_sql);
 
 
@@ -47,7 +48,7 @@ for ($i = 0; $i < count($tabpost); $i++) {
         <script src="./script.js"></script>
       </div>
 
-        <p class="recetteTexte"><?php echo $tabpost[$i]["titre"];   ?></p>
+        <p class="recetteTexte"> <a href="indexRecette.php"><?php echo $tabpost[$i]["titre"];   ?></p> </a>
         <img class="imgTimeR" src="./img/Vector.png" alt="">
         <p class="minR"><?php echo $tabpost[$i]["dureeprep"];   ?></p>
         <div class="imgCatR">

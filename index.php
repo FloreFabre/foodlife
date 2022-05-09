@@ -1,3 +1,8 @@
+<?php
+session_start();
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -42,6 +47,17 @@
           </li>
           <li><a href="/">Contact</a></li>
           <li><a href="/">About us</a></li>
+
+          <?PHP if (isset($_SESSION['id'])) {
+
+           
+            echo "<li><a href='./login/logout.php'>logout</a></li>";
+            echo "<li><a href='./crud/CrudRecette/crudRecette.php'>Crud</a></li>";
+          } else {
+            echo "<li><a href='./login/login.php'>login</a></li>";
+          }
+          ?>
+          <!-- <li><a href="./login/login.php">login</a></li> -->
         </div>
       </ul>
       <div class="headerlogo">
@@ -55,10 +71,10 @@
   </header>
 
   <div class="grid">
-  <?php include_once './requettesPHP/recetteHOT.php'; ?>
- 
-    </div>
-    <img class="imgDapproved" src="./img/Badge.png" alt="">
+    <?php include_once './requettesPHP/recetteHOT.php'; ?>
+
+  </div>
+  <img class="imgDapproved" src="./img/Badge.png" alt="">
   </div>
 
   <!-- CATEGORIES -->
@@ -110,10 +126,10 @@
 
   <span class="simplyrecipes">Simple and tasty recipes</span>
   <span class="simplyTexte">Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim </span>
-<div class="griid">
-<?php include_once './requettesPHP/recette.php'; ?>
- 
-</div>
+  <div class="griid">
+    <?php include_once './requettesPHP/recette.php'; ?>
+
+  </div>
 
 
   <div class="chef">
@@ -143,7 +159,7 @@
   <!-- Section Recette délicieuse -->
 
 
-  
+
   <div class="deliciousRecipe">
 
 
@@ -155,11 +171,11 @@
   </div>
 
 
-<div class="griiid">
+  <div class="griiid">
 
- <?php include './requettesPHP/recetteD.php' ?> 
+    <?php include './requettesPHP/recetteD.php' ?>
 
-</div>
+  </div>
 
   <div class="subscribe">
 

@@ -25,7 +25,7 @@ if(isset($_POST["id"]) && !empty($_POST["id"])){
 } else{
     /* verifier si paramettre id exite */
     if(empty(trim($_GET["id"]))){
-        header("location: crud.php");
+        header("location: crudUser.php");
         exit();
     }
 }
@@ -57,7 +57,7 @@ if(isset($_POST["id"]) && !empty($_POST["id"])){
                             <p>Etes vous sûr de vouloir supprimer cet article ?</p>
                             <p>
                                 <input type="submit" value="OUI" class="btn btn-danger">
-                                <a href="crud.php" class="btn btn-secondary">NON</a>
+                                <a href="crudUser.php" class="btn btn-secondary">NON</a>
                             </p>
                         </div>
                     </form>
