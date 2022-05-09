@@ -14,6 +14,8 @@
         <div class="container">
             <h2>Liste des Utilisateur</h2>
             <a class="bnt btn-new" href="creationRecette.php">Ajouter une Recette</a>
+            <a class="bnt btn-new" href="../crudUser/crudUser.php">Crud Utilisateur</a>
+            <a class="bnt btn-new" href="../crud.php">Crud Catégorie</a>
             <div class="row">
                 <div class="table-responsive">
                     <table class="table table-hover table-bordered">

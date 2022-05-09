@@ -8,7 +8,7 @@ if ($mysqli->connect_errno) {
 }
 
 // Selectionner des données
-$requete_sqlD = "SELECT titreD, photoD, dureeprepD, type FROM recetted, catégorie WHERE id_categ = catégorie.id LIMIT 8";
+$requete_sqlD = "SELECT titre, photo, dureeprep, type FROM recette, catégorie WHERE id_categorie = catégorie.id  ORDER BY recette.id  DESC   LIMIT 8";
 $resultD = $mysqli->query($requete_sqlD);
 
 
@@ -20,9 +20,9 @@ while ($row = $resultD->fetch_assoc()) {
 
     $tabpost2[] = [
 
-        'titreD' => $row['titreD'],
-        'photoD' => $row['photoD'],
-        'dureeprepD' => $row['dureeprepD'],
+        'titre' => $row['titre'],
+        'photo' => $row['photo'],
+        'dureeprep' => $row['dureeprep'],
         'type' => $row['type'],
     ];
 }
@@ -36,7 +36,7 @@ for ($i = 0; $i < count($tabpost2); $i++) {
 ?>
  
     <div class="deliciousRecipe1">
-        <img src="./img/<?php echo $tabpost2[$i]["photoD"];   ?>" alt="photo" class="imgDR">
+        <img src="./img/<?php echo $tabpost2[$i]["photo"];   ?>" alt="photo" class="imgDR">
 
         <div class="likeDR">
         <div class="likeB">
@@ -47,9 +47,9 @@ for ($i = 0; $i < count($tabpost2); $i++) {
         <script src="./script.js"></script>
       </div>
 
-        <p class="DRtexte"><?php echo $tabpost2[$i]["titreD"];   ?></p>
+        <p class="DRtexte"><a href="indexRecette.php"><?php echo $tabpost2[$i]["titre"];   ?></p></a>
         <img class="imgTimeDR" src="./img/Vector.png" alt="">
-        <p class="minDR"><?php echo $tabpost2[$i]["dureeprepD"];   ?></p>
+        <p class="minDR"><?php echo $tabpost2[$i]["dureeprep"];   ?></p>
         <div class="imgCatDR">
         <img class="" src="./img/Vector (1).png" alt="">
         <img class="" src="./img/Vector (2).png" alt="">

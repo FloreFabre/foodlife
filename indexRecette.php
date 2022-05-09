@@ -87,22 +87,8 @@
         <div class="Sauce">
             <span class="titreSauce">For the sauce</span>
             <div class="checkSauce">
-                <div class="checkSauce1">
-                    <img class="checksauce" src="./img/stepuncheck.png" alt="">
-                    <span class="textesauce">Lorem ipsum dolor sit amet</span>
-                    <hr class="sauceséparation">
-                </div>
-                <div class="checkSauce1">
-                    <img class="checksauce" src="./img/stepuncheck.png" alt="">
-                    <span class="textesauce">Lorem ipsum dolor sit amet</span>
-                    <hr class="sauceséparation">
-                </div>
-                <div class="checkSauce1">
-                    <img class="checksauce" src="./img/stepuncheck.png" alt="">
-                    <span class="textesauce">Lorem ipsum dolor sit amet</span>
-                    <hr class="sauceséparation">
-                </div>
-            </div>
+            <?php include './requettesPHP/sauce.php'; ?>
+             ->
         </div>
 
     </div>
@@ -111,30 +97,12 @@
         <div class="direction">
             <span class="titrestep1">Directions</span>
             <div class="directiongrid">
-                
-                <div class="etape1">
-
-                    <img class="checkstep" src="./img/stepuncheck.png" alt="">
-                    <span class="titrestep">1. Lorem ipsum dolor sit amet</span>
-                    <span class="textestep">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</span>
-                    <img class="imgstep" src="./img/imgDirection.png" alt="">
-                    <span class="textestep2">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</span>
-                    <hr class="stepséparation">
-                </div>
+            <?php include './requettesPHP/direction1.php'; ?>
+           
             </div>
                 <div class="directiongrid2">
-                <div class="etape1">
-                    <img class="checkstep" src="./img/stepuncheck.png" alt="">
-                    <span class="titrestep">2. Lorem ipsum dolor sit amet </span>
-                    <span class="textestep">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</span>
-                    <hr class="stepséparation2">
-                </div>
-                <div class="etape1">
-                    <img class="checkstep" src="./img/stepuncheck.png" alt="">
-                    <span class="titrestep">3. Lorem ipsum dolor sit amet </span>
-                    <span class="textestep">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</span>
-                    <hr class="stepséparation3">
-                </div>
+                <?php include './requettesPHP/direction2.php'; ?>
+              
             </div>
         </div>
 
@@ -164,83 +132,8 @@
 
     <span class="RecipelikeTitre">You may like these recipe too</span>
     <div class="Recipelike">
-
-
-        <div class="Recipelike1">
-
-            <img class="imgRL" src="./img/tropicalfruit.png" alt="">
-            <img class="likeRL" src="./img/like.png" alt="">
-
-            <span class="RLtexte">Mixed Tropical Fruit Salad with Superfood Boosts </span>
-
-            <img class="imgTimeRL" src="./img/Vector.png" alt="">
-            <span class="minRL"> 30 Minutes</span>
-            <div class="imgCatRL">
-                <img class="" src="./img/Vector (1).png" alt="">
-                <img class="" src="./img/Vector (2).png" alt="">
-            </div>
-            <span class="catRL">Healthy</span>
-
-
-        </div>
-
-        <div class="Recipelike1">
-
-            <img class="imgRL" src="./img/wagyubeef.png" alt="">
-            <img class="likeRL" src="./img/unlike.png" alt="">
-
-            <span class="RLtexte">Big and Juicy Wagyu Beef Cheeseburger</span>
-
-            <img class="imgTimeRL" src="./img/Vector.png" alt="">
-            <span class="minRL"> 30 Minutes</span>
-            <div class="imgCatRL">
-                <img class="" src="./img/Vector (1).png" alt="">
-                <img class="" src="./img/Vector (2).png" alt="">
-            </div>
-            <span class="catRL">Western</span>
-
-
-        </div>
-
-        <div class="Recipelike1">
-
-            <img class="imgRL" src="./img/friedriceasparagus.png" alt="">
-            <img class="likeRL" src="./img/like.png" alt="">
-
-            <span class="RLtexte">Healthy Japanese Fried Rice with Asparagus</span>
-
-            <img class="imgTimeRL" src="./img/Vector.png" alt="">
-            <span class="minRL"> 30 Minutes</span>
-            <div class="imgCatRL">
-                <img class="" src="./img/Vector (1).png" alt="">
-                <img class="" src="./img/Vector (2).png" alt="">
-            </div>
-            <span class="catRL">Healthy</span>
-
-
-        </div>
-
-        <div class="Recipelike1">
-
-            <img class="imgRL" src="./img/tacomeat.png" alt="">
-            <img class="likeRL" src="./img/unlike.png" alt="">
-
-            <span class="RLtexte">Cauliflower Walnut Vegetarian Taco Meat</span>
-
-            <img class="imgTimeRL" src="./img/Vector.png" alt="">
-            <span class="minRL"> 30 Minutes</span>
-            <div class="imgCatRL">
-                <img class="" src="./img/Vector (1).png" alt="">
-                <img class="" src="./img/Vector (2).png" alt="">
-            </div>
-            <span class="catRL">Eastern</span>
-
-
-        </div>
-
-
-
-
+    <?php include './requettesPHP/recetteD2.php'; ?>
+    
     </div>
 
 

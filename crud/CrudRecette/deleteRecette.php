@@ -2,9 +2,9 @@
 /* confirmer */
 if(isset($_POST["id"]) && !empty($_POST["id"])){
     /* Inclure le fichier config */
-    require_once "crudUser.php";
+    require_once "crudRecette.php";
     
-    $sql = "DELETE FROM utilisateur WHERE id = ?";
+    $sql = "DELETE FROM recette WHERE id = ?";
     
     if($stmt = mysqli_prepare($link, $sql)){
         mysqli_stmt_bind_param($stmt, "i", $param_id);
@@ -25,7 +25,7 @@ if(isset($_POST["id"]) && !empty($_POST["id"])){
 } else{
     /* verifier si paramettre id exite */
     if(empty(trim($_GET["id"]))){
-        header("location: crud.php");
+        header("location: crudRecette.php");
         exit();
     }
 }
@@ -57,7 +57,7 @@ if(isset($_POST["id"]) && !empty($_POST["id"])){
                             <p>Etes vous sûr de vouloir supprimer cet article ?</p>
                             <p>
                                 <input type="submit" value="OUI" class="btn btn-danger">
-                                <a href="crud.php" class="btn btn-secondary">NON</a>
+                                <a href="crudRecette.php" class="btn btn-secondary">NON</a>
                             </p>
                         </div>
                     </form>

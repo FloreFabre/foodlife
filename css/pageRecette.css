@@ -744,7 +744,7 @@ body {
     width: 113px;
     height: 17px;
     left: 1164px;
-    top: 1432px;
+    top: 1445px;
 
     font-family: 'Inter';
     font-style: normal;
@@ -799,7 +799,7 @@ body {
     position: relative;
     margin-left: 171px;
     left: -177px;
-    top: -813px;
+    top: -397px;
     row-gap: 95px;
     column-gap: -25px;
 }
@@ -856,18 +856,14 @@ position: relative;
     position: absolute;
     width: 165px;
     height: 44px;
-    left: 81px;
+    left: -25px;
     top: 2279px;
-
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
     font-size: 36px;
     line-height: 44px;
-    /* identical to box height */
-
     letter-spacing: -0.04em;
-
     color: #000000;
 }
 .directiongrid{
@@ -876,7 +872,7 @@ position: relative;
     grid-template-columns: repeat(1,1fr);
     position: relative;
     margin-left: 171px;
-    left: -177px;
+    left: -276px;
     top: -7px;
     row-gap: 503px;
     column-gap: -25px;
@@ -888,7 +884,7 @@ position: relative;
     grid-template-columns: repeat(1,1fr);
     position: relative;
     margin-left: 171px;
-    left: -177px;
+    left: -278px;
     top: 828px;
     row-gap: 246px;
     column-gap: -25px;
@@ -1127,7 +1123,7 @@ position: relative;
     position: absolute;
     width: 1280px;
     height: 442px;
-    left: 83px;
+    left: 0px;
     top: 3826px;
     background: #E7F9FD;
     border-radius: 60px;
@@ -1163,10 +1159,10 @@ position: relative;
     grid-template-columns: repeat(4,1fr);
     position: relative;
     margin-left: 171px;
-    left: -174px;
-    top: 360px;
-    row-gap: 371px;
-    column-gap: -25px;
+    left: -254px;
+    top: -784px;
+    row-gap: 346px;
+    column-gap: 200px;
 }
 
 
@@ -1175,7 +1171,7 @@ position: relative;
     position: absolute;
     width: 468px;
     height: 44px;
-    left: 494px;
+    left: 408px;
     top: 4428px;
     font-family: 'Inter';
     font-style: normal;
